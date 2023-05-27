@@ -1,0 +1,125 @@
+*{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        text-decoration: none;
+        list-style: none;
+}
+
+.nav-primera-linea{
+    background: rgb(10, 55, 122);
+    padding: 50px;
+}
+
+.nav-primera-linea input{
+    position: absolute;
+    right: 80px;
+    width:240px;
+    height:8px;
+    border-radius: 20px;
+    padding: 12px;
+    margin: 4px;
+}
+
+.nav-segunda-linea{
+    position: absolute;
+    width:80%;
+    background: rgba(255, 254, 251, 0.836);
+    padding: 30px;
+    margin: 0 0 0 257px;
+}
+
+.nav-segunda-linea li{
+    display:inline-block;
+    margin: 0 0 0 8px;
+    font-size: 24px;
+    color: black;
+    font-weight: bolder;
+}
+
+a{
+    color:black;
+    margin: 40px;
+    transition: 600ms;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+nav{
+    text-align:end;
+}
+
+#imagen-principal{
+    width:100%;
+    height:400px;
+    margin-bottom:24px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight:bolder;
+    color:rgb(10, 55, 122)
+}
+
+.container-nosotros{
+    margin: 50px 0 40px 0;
+    width:70%;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+    border-radius:20px;
+    background: linear-gradient(to right, white 45%, lightcyan)
+}
+
+.imagen-nosotros{
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.mision-vision{
+    box-sizing: border-box;
+    background: lightcyan;
+    padding: 40px 0 40px 0;
+}
+
+.caja-mision-vision div{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    background: rgb(10, 55, 122);
+    margin:40px -200px 0 240px;
+    padding: 20px;
+    border-radius:25px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background:lightgrey;
+    width:400px;
+    margin: 30px 0 30px 280px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.formulario input{
+    width: 80%;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+footer{
+    background: rgb(10, 55, 122);
+    width:100%;
+    height: 200px;
+}
