@@ -185,7 +185,7 @@ h3{
 
 
         /*      Seccion Cotiza con nosotros         */
-        
+
 .cotiza{
     background: lightcyan;
     padding: 20px;
@@ -269,6 +269,19 @@ h3{
     margin: 20px 0 20px 20px;
 }
 
+#boton-formulario{
+    width:60%;
+   margin: auto;
+   margin-top:40px;
+   cursor: pointer;
+   font-weight: bolder;
+   transition: 800ms;
+}
+
+#boton-formulario:hover{
+    background: rgba(80, 129, 6, 0.788);
+    transform: scale(1.5);
+}
 
                     /* Seccion Nuestros Aliados */
 .nuestros-aliados{
@@ -287,6 +300,7 @@ h3{
 
 .mapa{
     margin:40px 10% 20px 10%;
+    border-radius: 25px;
 }
 
 footer{
