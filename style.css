@@ -26,7 +26,7 @@ body{
 }
 
 
-/* Primera linea del navbar*/
+                    /* Primera linea del navbar*/
 
 .nav-primera-linea{
     background: var(--darkbluecolor);
@@ -51,7 +51,7 @@ body{
 }
 
 
-/*Segunda linea del navbar, con menu fijado*/
+            /*Segunda linea del navbar, con menu fijado*/
 
 .nav-segunda-linea{
     position: absolute;
@@ -86,7 +86,7 @@ nav{
 
 
 
-/* Inicio de la pagina*/
+                    /* Inicio de la pagina*/
 
 #imagen-principal{
     width:100%;
@@ -183,6 +183,9 @@ h3{
     border-radius:25px;
 }
 
+
+        /*      Seccion Cotiza con nosotros         */
+        
 .cotiza{
     background: lightcyan;
     padding: 20px;
@@ -264,6 +267,26 @@ h3{
 .container-cotiza-info ul li:first-child{
     list-style: none;
     margin: 20px 0 20px 20px;
+}
+
+
+                    /* Seccion Nuestros Aliados */
+.nuestros-aliados{
+    margin: 40px;
+    text-align: center;
+}
+
+
+
+                        /*      Mapa    */
+
+.ubicacion{
+    background: lightcyan;
+    padding: 40px;
+}
+
+.mapa{
+    margin:40px 10% 20px 10%;
 }
 
 footer{
