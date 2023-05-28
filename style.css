@@ -303,6 +303,58 @@ h3{
     border-radius: 25px;
 }
 
+.container-logos{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    margin:auto;
+  
+}
+
+.container-logos div{
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logos{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row; 
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#primeros-3-logos{
+    margin-top:30px;
+}
+
+.logos img{
+    width: 100px;
+    height:150px;
+    margin:auto;
+   transition: 1s;
+}
+
+.logos img:hover{
+    transform: scale(1.2);
+}
+
+#div-previo-sello{
+    margin-right: 200px;
+    
+}
+
+.sello{
+    box-sizing: border-box;
+    position:relative;
+    right:80px;
+    bottom:-80px;
+   
+}
+
 footer{
     background: rgb(10, 55, 122);
     width:100%;
