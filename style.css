@@ -30,41 +30,50 @@ body{
 
 .nav-primera-linea{
     background: var(--darkbluecolor);
-    padding: 16px;
+    width:100%;
+    height: 92px;
 }
 
 .logo-navbar{
-    width:200px;
-    margin: 0 0 0 50px;
+    width:195px;
+    height: 81px;
+    margin: 5.41px 23.4px 0 20px;
+
 }
 
-.nav-primera-linea input{
-   
-    position: absolute;
-    top:40px;
-    right: 80px;
-    width:240px;
-    height:8px;
-    border-radius: 20px;
-    padding: 12px;
-    margin: 4px;
+.parrafo-navbar{
+    display: inline-block;
+    position:relative;
+    top:-40px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 70px;
+    margin: 38.9px 0 0 0;
+    padding: 24px;
+    color:white;
+    font-size: 16px;
+    border-left: 1px solid white;
 }
+
+
 
 
             /*Segunda linea del navbar, con menu fijado*/
 
 .nav-segunda-linea{
     position: absolute;
-    width:80%;
+    width:68%;
     background: var(--whitecolor);
-    padding: 30px;
-    margin: 0 0 0 125px;
+    padding: 20px;
+    margin-left: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .nav-segunda-linea li{
     display:inline-block;
     margin: 0 0 0 8px;
-    font-size: 16px;
+    font-size: 14px;
     color: darkgrey;
     font-weight: bolder;
 }
@@ -91,7 +100,13 @@ nav{
 #imagen-principal{
     width:100%;
     height:650px;
-    margin-bottom:80px;
+    margin-bottom:-34px;
+}
+
+canvas{
+    margin-bottom:100px;
+    border-radius: 50%;
+    margin-left:33%;
 }
 
 h1{
@@ -165,10 +180,15 @@ h3{
     padding: 16px;
 }
 
+.quienes-somos{
+    margin-top: 80px;
+}
 .mision-vision{
     box-sizing: border-box;
     background: lightcyan;
     padding: 50px 0 80px 0;
+    margin-bottom:-20px;;
+    
 }
 
 
@@ -176,7 +196,7 @@ h3{
     box-sizing: border-box;
     display: inline-block;
     width: 500px;
-    height: 200px;
+    height: 220px;
     background: rgb(10, 55, 122);
     margin:40px -200px 0 240px;
     padding: 20px;
@@ -351,17 +371,82 @@ h3{
     box-sizing: border-box;
     position:relative;
     right:80px;
-    bottom:-80px;
+    bottom:-90px;
    
 }
 
-footer{
-    background: rgb(10, 55, 122);
-    width:100%;
-    height: 200px;
+#logo-whatsapp{
+    position:absolute;
+    top:670px;
+    right:30px;
+    transition: 1s;
+    border-radius: 50%;
 }
 
+#logo-whatsapp:hover{
+    transform: scale(1.3);
+}
+
+
+footer{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    background: rgb(10, 55, 122);
+    width:100%;
+    color: white;
+}
+
+.footer-linea{
+    border: 1px solid lightgray;
+    height:200px;
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+
+footer div ul{
+    margin:40px;
+    margin-bottom:20px;
+    font-size: 12px;
+    
+}
+
+footer div ul li:first-child{
+    font-weight: bolder;
+}
 .logo-footer{
     width:200px;
-    margin: 20px 0 0 50px;
+    margin: 20px 300px 0 50px;
+}
+
+.contacto{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    width:70%;
+    color: gray;
+    margin: auto;
+    margin-top:80px;
+}
+
+.contacto div ul{
+    margin:20px;
+    margin-bottom:20px;
+    font-size: 16px;
+    
+}
+
+.logo-contacto{
+    width:160px;
+    margin: 20px 80px 0 50px;
+}
+
+.contacto div ul li:first-child{
+    font-weight: bolder;
+}
+
+.contacto-linea{
+    border: 1px solid lightgray;
+    height:200px;
+    margin: 0 40px 0 40px;
 }
