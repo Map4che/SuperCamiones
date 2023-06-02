@@ -14,15 +14,25 @@
     --lightbluecolor: #00A6E2;
     --darkgreycolor: #53575A;
     --whitecolor: #eafaffb0;
+    --transparent-white-color: rgba(234, 250, 255, 0.75);
 }
 
 @font-face{
-    font-family: "work-sans";
-    src: url("./Fuentes/WorkSans-VariableFont_wght.ttf")
+    font-family: "Regular";
+    src: url("./Fuentes/VWHeadRegular.otf");
 }
 
-body{
-    font-family: "work-sans";
+@font-face{
+font-family:"Bold";
+    src: url("./Fuentes/VWHeadBold.otf");
+}
+
+*{
+    font-family: "Regular";
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Regular";
 }
 
 
@@ -62,31 +72,34 @@ body{
 
 .nav-segunda-linea{
     position: absolute;
-    width:68%;
+    width:70%;
     background: var(--whitecolor);
-    padding: 20px;
-    margin-left: 200px;
+    padding: 10px;
+    margin-left: 230px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    z-index:999;
 }
 
 .nav-segunda-linea li{
     display:inline-block;
-    margin: 0 0 0 8px;
+    margin: 0 0 0 0px;
     font-size: 14px;
-    color: darkgrey;
+    color: var(--transparent-white-color);
     font-weight: bolder;
 }
 
 a{
     color: rgb(48, 46, 46);
-    margin: 40px;
+    margin: 50px;
     transition: 600ms;
 }
 
 a:hover{
+    font-family: "Bold";
     color: red;
     text-decoration: underline;
+    font-size: 16px;
 }
 
 nav{
@@ -95,7 +108,7 @@ nav{
 
 
 
-                    /* Inicio de la pagina*/
+                    /*  *************Pagina Inicio************* */
 
 #imagen-principal{
     width:100%;
@@ -112,9 +125,13 @@ canvas{
 h1{
     font-size: 40px;
     text-align: center;
-    font-weight:bolder;
-    color:rgb(10, 55, 122);
-    text-decoration: underline;
+    font-weight:bold;
+    color:var(--darkbluecolor);
+    border-bottom: 4px solid var(--darkbluecolor);
+    width:36%;
+    margin:auto;
+    padding-bottom: 12px;
+    margin-bottom: 75px;
 }
 
 .container-nosotros{
@@ -162,6 +179,10 @@ h3{
     margin-bottom: 50px;
 }
 
+.servicios h1{
+    width:22%;
+}
+
 .nuestros-sevicios-caja div{
     box-sizing: border-box;
     margin: 30px 10px 4px 10px;
@@ -206,20 +227,43 @@ h3{
 
         /*      Seccion Cotiza con nosotros         */
 
-.cotiza{
-    background: lightcyan;
+.cotiza {
+    position: relative;
     padding: 20px;
     box-sizing: border-box;
+}
+          
+.cotiza::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./Imagenes/2-01.png);
+    background-size: contain;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+          
+.cotiza-content {
+    position: relative;
+    z-index: 1;
+}
+
+.cotiza h1{
+    margin-top: 25px;
+    border-bottom: 4px solid var(--darkbluecolor);
+    
 }
 
 .container-formulario{
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 79%;
     background: var(--darkbluecolor);
-    margin: auto;
-    margin-top:50px;
+    margin: 0 147px 0 146px;
     margin-bottom: 50px;
     border-radius: 25px;
 }
@@ -229,29 +273,34 @@ h3{
     display: flex;
     flex-direction: column;
     background:white;
-    width:400px;
-    padding: 20px;
+    width:560px;
+    height:600px;
+    padding: 19px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 .formulario h4{
     text-align: center;
-    color: var(--lightbluecolor);
+    color: var(--darkbluecolor);
     font-weight: bolder;
-    font-size:20px;
+    font-size:18px;
     margin-top:16px;
-    margin-bottom:20px;
+    margin-bottom:38px;
+    margin-left:115px;
+    margin-right: 104px;
 }
 
 .formulario label{ 
-    margin-top: 8px;
-    margin-bottom:8px;
+    margin-bottom:7px;
+    font-size:13px;
+    color: #989898;
 }
 
 .formulario input, textarea{
-    background:#dddfe2cc;
-    width: 90%;
+    background:#E5E5E5;
+    width: 91%;
+    height:1%;
     padding: 12px;
     border-radius: 25px;
     color: black;
@@ -259,9 +308,13 @@ h3{
     margin-bottom:8px;
 }
 
+.formulario textarea{
+    height: 16%;
+}
+
 .imagen-formulario{
     box-sizing: border-box;
-    width:480px;
+    width:99%;
     border-radius: 25px;
   
 }
@@ -269,111 +322,100 @@ h3{
 .cotiza-form{
     background: var(--darkbluecolor);
     width:100%;
-    z-index: 99;
 }
 
 .container-cotiza-info{
     box-sizing: border-box;
-    width: 480px;
+    width: 644px;
+    font-size:15px;
 }
 
 .container-cotiza-info ul li{
     margin-bottom: 20px;
-    list-style:disc;
-    margin: 20px 10px 20px 60px;
-    color: var(--whitecolor);
+    margin: 17px 14px 22px 32px;
+    color: #E5E5E5;;
 }
 
 .container-cotiza-info ul li:first-child{
     list-style: none;
-    margin: 20px 0 20px 20px;
 }
 
 #boton-formulario{
-    width:60%;
+    font-size: 13px;
+    width:40%;
+    height:7%;
    margin: auto;
-   margin-top:40px;
    cursor: pointer;
    font-weight: bolder;
    transition: 800ms;
+   
 }
 
 #boton-formulario:hover{
-    background: rgba(80, 129, 6, 0.788);
-    transform: scale(1.5);
+    background: #b8b8b8;
+    transform: scale(1.2);
 }
 
                     /* Seccion Nuestros Aliados */
-.nuestros-aliados{
-    margin: 40px;
-    text-align: center;
+
+
+.distribuidores-de h1{
+    width: 28%;
+    margin-top: 52px;;
 }
 
+
+.container-logos {
+    box-sizing: border-box;
+    background-image: url(./Logos/1_Mesa\ de\ trabajo\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 600px;
+    z-index: 99;
+    margin: 0 0 0 84px;
+  }
+
+
+
+#sello{
+    box-sizing: border-box;
+    position:relative;
+    left:540px;
+    bottom:-90px;
+    top:290px;
+   width: 343px;
+   height:339px;
+}
 
 
                         /*      Mapa    */
 
 .ubicacion{
-    background: lightcyan;
-    padding: 40px;
+    background: url(./Imagenes/2-01.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 67px;
+    padding-bottom: 50px;
+    height:760px;
+}
+
+.ubicacion h1{
+    width: 22%;
 }
 
 .mapa{
-    margin:40px 10% 20px 10%;
+    margin:40px 10% 0px 10%;
     border-radius: 25px;
 }
 
-.container-logos{
-    display: flex;
-    flex-direction: column;
-    width:80%;
-    margin:auto;
-  
+#ubicacion{
+    margin-bottom: -20px;;
 }
 
-.container-logos div{
-    width: 90%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    
-}
 
-.logos{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row; 
-    margin-left: 40px;
-    margin-top: 40px;
-}
-
-#primeros-3-logos{
-    margin-top:30px;
-}
-
-.logos img{
-    width: 100px;
-    height:150px;
-    margin:auto;
-   transition: 1s;
-}
-
-.logos img:hover{
-    transform: scale(1.2);
-}
-
-#div-previo-sello{
-    margin-right: 200px;
-    
-}
-
-.sello{
-    box-sizing: border-box;
-    position:relative;
-    right:80px;
-    bottom:-90px;
-   
-}
+                    /* Logo WhatsApp    */
 
 #logo-whatsapp{
     position:absolute;
@@ -387,6 +429,8 @@ h3{
     transform: scale(1.3);
 }
 
+
+                /*  Footer  */
 
 footer{
     box-sizing: border-box;
@@ -406,7 +450,7 @@ footer{
 
 footer div ul{
     margin:40px;
-    margin-bottom:20px;
+    margin-bottom:40px;
     font-size: 12px;
     
 }
@@ -419,7 +463,16 @@ footer div ul li:first-child{
     margin: 20px 300px 0 50px;
 }
 
-.contacto{
+
+
+            /*     **********     Pagina Contacto  **********       */
+
+
+.contacto h1{
+    margin-top: 80px;
+}
+
+.container-contacto{
     box-sizing: border-box;
     display:flex;
     flex-direction: row;
@@ -428,6 +481,7 @@ footer div ul li:first-child{
     margin: auto;
     margin-top:80px;
 }
+
 
 .contacto div ul{
     margin:20px;
