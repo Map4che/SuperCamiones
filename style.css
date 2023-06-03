@@ -1,562 +1,580 @@
 *{
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-        text-decoration: none;
-        list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
 }
 
 :root{
-    --darkbluecolor: #002E61;
-    --lightbluecolor: #00A6E2;
-    --darkgreycolor: #53575A;
-    --whitecolor: #eafaffb0;
-    --transparent-white-color: rgba(234, 250, 255, 0.75);
+--darkbluecolor: #002E61;
+--lightbluecolor: #00A6E2;
+--darkgreycolor: #53575A;
+--whitecolor: #eafaffb0;
+--transparent-white-color: rgba(234, 250, 255, 0.75);
 }
 
 @font-face{
-    font-family: "Regular";
-    src: url("./Fuentes/VWHeadRegular.otf");
+font-family: "Regular";
+src: url("./Fuentes/VWHeadRegular.otf");
 }
 
 @font-face{
 font-family:"Bold";
-    src: url("./Fuentes/VWHeadBold.otf");
+src: url("./Fuentes/VWHeadBold.otf");
 }
 
 *{
-    font-family: "Regular";
+font-family: "Regular";
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: "Regular";
+font-family: "Regular";
 }
 
 
-                    /* Primera linea del navbar*/
+                /* Primera linea del navbar*/
 
 .nav-primera-linea{
-    background: var(--darkbluecolor);
-    width:100%;
-    height: 92px;
+background: var(--darkbluecolor);
+width:100%;
+height: 92px;
 }
 
 .logo-navbar{
-    width:195px;
-    height: 81px;
-    margin: 5.41px 23.4px 0 20px;
+width:195px;
+height: 81px;
+margin: 5.41px 23.4px 0 20px;
 
 }
 
 .parrafo-navbar{
-    display: inline-block;
-    position:relative;
-    top:-40px;
-    box-sizing: border-box;
-    width: 50%;
-    height: 70px;
-    margin: 38.9px 0 0 0;
-    padding: 24px;
-    color:white;
-    font-size: 16px;
-    border-left: 1px solid white;
+display: inline-block;
+position:relative;
+top:-40px;
+box-sizing: border-box;
+width: 50%;
+height: 70px;
+margin: 38.9px 0 0 0;
+padding: 24px;
+color:white;
+font-size: 16px;
+border-left: 1px solid white;
 }
 
 
 
 
-            /*Segunda linea del navbar, con menu fijado*/
+        /*Segunda linea del navbar, con menu fijado*/
 
 .nav-segunda-linea{
-    position: absolute;
-    width:70%;
-    background: var(--whitecolor);
-    padding: 10px;
-    margin-left: 230px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    z-index:999;
+position: absolute;
+width:70%;
+background: var(--whitecolor);
+padding: 10px;
+margin-left: 230px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+z-index:999;
 }
 
 .nav-segunda-linea li{
-    display:inline-block;
-    margin: 0 0 0 0px;
-    font-size: 14px;
-    color: var(--transparent-white-color);
-    font-weight: bolder;
+display:inline-block;
+margin: 0 0 0 0px;
+font-size: 14px;
+color: var(--transparent-white-color);
+font-weight: bolder;
 }
 
 a{
-    color: rgb(48, 46, 46);
-    margin: 50px;
-    transition: 600ms;
+color: rgb(48, 46, 46);
+margin: 50px;
+transition: 600ms;
 }
 
 a:hover{
-    font-family: "Bold";
-    color: red;
-    text-decoration: underline;
-    font-size: 16px;
+font-family: "Bold";
+color: red;
+text-decoration: underline;
+font-size: 16px;
 }
 
 nav{
-    text-align:end;
+text-align:end;
 }
 
 
 
-                    /*  *************Pagina Inicio************* */
+                /*  *************Pagina Inicio************* */
 
 #imagen-principal{
-    width:100%;
-    height:650px;
-    margin-bottom:-34px;
+width:100%;
+height:650px;
+margin-bottom:-34px;
 }
 
 canvas{
-    margin-bottom:100px;
-    border-radius: 50%;
-    margin-left:33%;
+margin-bottom:100px;
+border-radius: 50%;
+margin-left:33%;
 }
 
 h1{
-    font-size: 40px;
-    text-align: center;
-    font-weight:bold;
-    color:var(--darkbluecolor);
-    border-bottom: 4px solid var(--darkbluecolor);
-    width:36%;
-    margin:auto;
-    padding-bottom: 12px;
-    margin-bottom: 75px;
+font-size: 40px;
+text-align: center;
+font-weight:bold;
+color:var(--darkbluecolor);
+border-bottom: 4px solid var(--darkbluecolor);
+width:36%;
+margin:auto;
+padding-bottom: 12px;
+margin-bottom: 75px;
 }
 
 
 .servicios p{
-    width:70%;
-    margin:auto;
-    margin-top: 28px;
-    margin-bottom: 40px;
+width:70%;
+margin:auto;
+margin-top: 28px;
+margin-bottom: 40px;
 }
 
 .nuestros-sevicios-caja{
-    display:flex;
-    flex-direction: row;
-    width:80%;
-    margin:auto;
-    margin-bottom: 50px;
+display:flex;
+flex-direction: row;
+width:80%;
+margin:auto;
+margin-bottom: 50px;
 }
 
 .servicios h1{
-    width:22%;
+width:22%;
 }
 
 .nuestros-sevicios-caja div{
-    box-sizing: border-box;
-    margin: 30px 10px 4px 10px;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 25px;
+box-sizing: border-box;
+margin: 30px 10px 4px 10px;
+box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+border-radius: 25px;
 }
 
 .imagen-saludo{
-    width:100%;
-    height: 240px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+width:100%;
+height: 240px;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
 }
 
 .nuestros-sevicios-caja div p{
-    padding: 16px;
+padding: 16px;
 }
 
 
 
-        /*      Seccion Cotiza con nosotros         */
+    /*      Seccion Cotiza con nosotros         */
 
 .cotiza {
-    position: relative;
-    padding: 20px;
-    box-sizing: border-box;
+position: relative;
+padding: 20px;
+box-sizing: border-box;
 }
-          
+      
 .cotiza::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(./Imagenes/2-01.png);
-    background-size: contain;
-    transform: rotate(180deg);
-    z-index: -1;
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: url(./Imagenes/2-01.png);
+background-size: contain;
+transform: rotate(180deg);
+z-index: -1;
 }
-          
+      
 .cotiza-content {
-    position: relative;
-    z-index: 1;
+position: relative;
+z-index: 1;
 }
 
 .cotiza h1{
-    margin-top: 25px;
-    border-bottom: 4px solid var(--darkbluecolor);
-    
+margin-top: 25px;
+border-bottom: 4px solid var(--darkbluecolor);
+
 }
 
 .container-formulario{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    width: 79%;
-    background: var(--darkbluecolor);
-    margin: 0 147px 0 146px;
-    margin-bottom: 50px;
-    border-radius: 25px;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+width: 79%;
+background: var(--darkbluecolor);
+margin: 0 147px 0 146px;
+margin-bottom: 50px;
+border-radius: 25px;
 }
 
 .formulario{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    background:white;
-    width:560px;
-    height:600px;
-    padding: 19px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+background:white;
+width:560px;
+height:600px;
+padding: 19px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
 }
 
 .formulario h4{
-    text-align: center;
-    color: var(--darkbluecolor);
-    font-weight: bolder;
-    font-size:18px;
-    margin-top:16px;
-    margin-bottom:38px;
-    margin-left:115px;
-    margin-right: 104px;
+text-align: center;
+color: var(--darkbluecolor);
+font-weight: bolder;
+font-size:18px;
+margin-top:16px;
+margin-bottom:38px;
+margin-left:115px;
+margin-right: 104px;
 }
 
 .formulario label{ 
-    margin-bottom:7px;
-    font-size:13px;
-    color: #989898;
+margin-bottom:7px;
+font-size:13px;
+color: #989898;
 }
 
 .formulario input, textarea{
-    background:#E5E5E5;
-    width: 91%;
-    height:1%;
-    padding: 12px;
-    border-radius: 25px;
-    color: black;
-    margin-top: 8px;
-    margin-bottom:8px;
+background:#E5E5E5;
+width: 91%;
+height:1%;
+padding: 12px;
+border-radius: 25px;
+color: black;
+margin-top: 8px;
+margin-bottom:8px;
 }
 
 .formulario textarea{
-    height: 16%;
+height: 16%;
 }
 
 .imagen-formulario{
-    box-sizing: border-box;
-    width:99%;
-    border-radius: 25px;
-  
+box-sizing: border-box;
+width:99%;
+border-radius: 25px;
+
 }
 
 .cotiza-form{
-    background: var(--darkbluecolor);
-    width:100%;
+background: var(--darkbluecolor);
+width:100%;
 }
 
 .container-cotiza-info{
-    box-sizing: border-box;
-    width: 644px;
-    font-size:15px;
+box-sizing: border-box;
+width: 644px;
+font-size:15px;
 }
 
 .container-cotiza-info ul li{
-    margin-bottom: 20px;
-    margin: 17px 14px 22px 32px;
-    color: #E5E5E5;;
+margin-bottom: 20px;
+margin: 17px 14px 22px 32px;
+color: #E5E5E5;;
 }
 
 .container-cotiza-info ul li:first-child{
-    list-style: none;
+list-style: none;
 }
 
 #boton-formulario{
-    font-size: 13px;
-    width:40%;
-    height:7%;
-   margin: auto;
-   cursor: pointer;
-   font-weight: bolder;
-   transition: 800ms;
-   
+font-size: 13px;
+width:40%;
+height:7%;
+margin: auto;
+cursor: pointer;
+font-weight: bolder;
+transition: 800ms;
+
 }
 
 #boton-formulario:hover{
-    background: #b8b8b8;
-    transform: scale(1.2);
+background: #b8b8b8;
+transform: scale(1.2);
 }
 
-                    /* Seccion Nuestros Aliados */
+                /* Seccion Nuestros Aliados */
 
 
 .distribuidores-de h1{
-    width: 28%;
-    margin-top: 52px;;
+width: 28%;
+margin-top: 52px;;
 }
 
 
 .container-logos {
-    box-sizing: border-box;
-    background-image: url(./Logos/1_Mesa\ de\ trabajo\ 1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 90%;
-    height: 600px;
-    z-index: 99;
-    margin: 0 0 0 84px;
-  }
+box-sizing: border-box;
+background-image: url(./Logos/1_Mesa\ de\ trabajo\ 1.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 90%;
+height: 600px;
+z-index: 99;
+margin: 0 0 0 84px;
+}
 
 
 
 #sello{
-    box-sizing: border-box;
-    position:relative;
-    left:540px;
-    bottom:-90px;
-    top:290px;
-   width: 343px;
-   height:339px;
+box-sizing: border-box;
+position:relative;
+left:540px;
+bottom:-90px;
+top:290px;
+width: 343px;
+height:339px;
 }
 
 
-                        /*      Mapa    */
+                    /*      Mapa    */
 
 .ubicacion{
-    background: url(./Imagenes/2-01.png);
-    background-repeat: no-repeat;
-    background-size: contain; 
-    padding-top: 67px;
-    padding-bottom: 50px;
-    height:760px;
+background: url(./Imagenes/2-01.png);
+background-repeat: no-repeat;
+background-size: contain; 
+padding-top: 67px;
+padding-bottom: 50px;
+height:760px;
 }
 
 .ubicacion h1{
-    width: 22%;
+width: 22%;
 }
 
 .mapa{
-    margin:40px 10% 0px 10%;
-    border-radius: 25px;
+margin:40px 10% 0px 10%;
+border-radius: 25px;
 }
 
 #ubicacion{
-    margin-bottom: -20px;;
+margin-bottom: -20px;;
 }
 
 
-                    /* Logo WhatsApp    */
+                /* Logo WhatsApp    */
 
 #logo-whatsapp{
-    position:absolute;
-    top:670px;
-    right:30px;
-    transition: 1s;
-    border-radius: 50%;
+position:absolute;
+top:670px;
+right:30px;
+transition: 1s;
+border-radius: 50%;
 }
 
 #logo-whatsapp:hover{
-    transform: scale(1.3);
+transform: scale(1.3);
 }
 
 
-                /*  Footer  */
+            /*  Footer  */
 
 footer{
-    box-sizing: border-box;
-    display:flex;
-    flex-direction: row;
-    background: rgb(10, 55, 122);
-    width:100%;
-    color: white;
+box-sizing: border-box;
+display:flex;
+flex-direction: row;
+background: rgb(10, 55, 122);
+width:100%;
+color: white;
 }
 
 .footer-linea{
-    border: 1px solid lightgray;
-    height:200px;
-    margin-top:40px;
-    margin-bottom: 20px;
+border: 1px solid lightgray;
+height:200px;
+margin-top:40px;
+margin-bottom: 20px;
 }
 
 footer div ul{
-    margin:40px;
-    margin-bottom:40px;
-    font-size: 12px;
-    
+margin:40px;
+margin-bottom:40px;
+font-size: 12px;
+
 }
 
 footer div ul li:first-child{
-    font-weight: bolder;
+font-weight: bolder;
 }
 .logo-footer{
-    width:200px;
-    margin: 20px 300px 0 50px;
+width:200px;
+margin: 20px 300px 0 50px;
 }
 
-
-
-            /*     **********     Pagina Contacto  **********       */
-
-
-.contacto h1{
-    margin-top: 80px;
-}
-
-.container-contacto{
-    background: url(./Imagenes/2-01.jpg);
-    background-repeat:no-repeat;
-    background-size: contain;
-    box-sizing: border-box;
-    display:flex;
-    flex-direction: row;
-    width:70%;
-    color: gray;
-    margin: auto;
-    margin-top:80px;
-}
-
-.title{
-    font-size:18px;
-    font-weight:bolder;
-    font-family: "Bold";
-    margin-bottom: 12px;
-}
-
-.container-contacto ul li{
-    text-align: center;
-}
-
-.contacto div ul{
-    margin:20px;
-    margin-bottom:30px;
-    font-size: 16px;
+.redes-sociales{
+    color:white;
+    font-size: 20px;
+    margin: 0;
+    padding-right:50px;
+    cursor:pointer;
+    transform:scale(1.4);
     
 }
 
+.redes-sociales :hover{
+    transform:scale(1.4);
+}
+
+.logo-footer-whatsapp{
+    position:relative;
+   right: 80px;
+   top:30px;
+}
+
+        /*     **********     Pagina Contacto  **********       */
+
+
+.contacto h1{
+margin-top: 80px;
+}
+
+.container-contacto{
+background: url(./Imagenes/2-01.jpg);
+background-repeat:no-repeat;
+background-size: contain;
+box-sizing: border-box;
+display:flex;
+flex-direction: row;
+width:70%;
+color: gray;
+margin: auto;
+margin-top:80px;
+}
+
+.title{
+font-size:18px;
+font-weight:bolder;
+font-family: "Bold";
+margin-bottom: 12px;
+}
+
+.container-contacto ul li{
+text-align: center;
+}
+
+.contacto div ul{
+margin:20px;
+margin-bottom:30px;
+font-size: 16px;
+
+}
+
 .logo-contacto{
-    width:160px;
-    margin: 20px 80px 0 50px;
+width:160px;
+margin: 20px 80px 0 50px;
 }
 
 .contacto div ul li:first-child{
-    font-weight: bolder;
+font-weight: bolder;
 }
 
 .contacto-linea{
-    border: 1px solid lightgray;
-    height:400px;
-    margin: 0 40px 0 40px;
+border: 1px solid lightgray;
+height:400px;
+margin: 0 40px 0 40px;
 }
 
 
-            /* ******************** Quienes Somos ************ */
+        /* ******************** Quienes Somos ************ */
 
 .quienes-somos{
-    margin-top: 80px;
+margin-top: 80px;
 }
 
 .quienes-somos h1{
-    width: 22%;
+width: 22%;
 }
 
 h3{
-    font-size: 30px;
-    text-align: center;
-    color: var(--darkbluecolor);
+font-size: 30px;
+text-align: center;
+color: var(--darkbluecolor);
 }
 
 .legend{
-    width:50%;
+width:50%;
 }
 
 
 .imagen-nosotros{
-    width:95%;
-    margin: 48px 10px 20px 10px ;
-    border-radius: 15px;
+width:95%;
+margin: 48px 10px 20px 10px ;
+border-radius: 15px;
 }
 
 .container-nosotros{
-    display: flex;
-    flex-direction: row;
-    margin: 50px 0 50px 0;
-    width:80%;
-    box-sizing: border-box;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 40px;
-    border-radius:20px;
-    background: linear-gradient(to right, white 10%, lightcyan);
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+display: flex;
+flex-direction: row;
+margin: 50px 0 50px 0;
+width:80%;
+box-sizing: border-box;
+justify-content: center;
+margin-right: auto;
+margin-left: auto;
+padding: 40px;
+border-radius:20px;
+background: linear-gradient(to right, white 10%, lightcyan);
+box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .text-legend{
-    border-top: 1px solid gray;
+border-top: 1px solid gray;
 }
 
 .historia{
-    margin:20px;
-    padding:20px;
-    font-size: 14px;;
-    width:90%;
-    height:450px;
-    overflow: auto;
-    border-left: 2px solid gray;
+margin:20px;
+padding:20px;
+font-size: 14px;;
+width:90%;
+height:450px;
+overflow: auto;
+border-left: 2px solid gray;
 }
 
 .mision-vision{
-    width:100%;
-    box-sizing: border-box;
-    background: url(./Imagenes/2-01\ invertido.png);
-    padding: 50px 0 80px 0;
-    margin-bottom:-20px;;
-    background-size: cover;
-    background-repeat: no-repeat;
+width:100%;
+box-sizing: border-box;
+background: url(./Imagenes/2-01\ invertido.png);
+padding: 50px 0 80px 0;
+margin-bottom:-20px;;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .caja-mision-vision div{
-    box-sizing: border-box;
-    display: inline-block;
-    width: 600px;
-    height: 400px;
-    background: rgb(10, 55, 122);
-    margin: 40px -140px 40px 180px;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    border-radius:25px;
-    color: white;
-   
+box-sizing: border-box;
+display: inline-block;
+width: 600px;
+height: 400px;
+background: rgb(10, 55, 122);
+margin: 40px -140px 40px 180px;
+box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+padding: 20px;
+border-radius:25px;
+color: white;
+
 }
 
 .mision-vision-div :first-child{
-    justify-self: center;
+justify-self: center;
 }
 
 .imagen-mision-vision{
-    box-sizing: border-box;
-    display: inline-block;
-    margin-left:30%;
-    margin-right:30%;
-    align-self:center;
-    margin-bottom:10px;
+box-sizing: border-box;
+display: inline-block;
+margin-left:30%;
+margin-right:30%;
+align-self:center;
+margin-bottom:10px;
 }
