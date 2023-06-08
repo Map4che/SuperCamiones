@@ -119,14 +119,16 @@ margin-bottom:-34px;
 }
 
 #anterior{
+    align-self: center;
     width:5%;
     border-radius: 50%;
-    background-color: #b8b8b83d;
+    background-color: var(--transparent-white-color);
     font-size: 90px;
+    color:#002E61;
     position:relative;
     top:-400px;
     left:50px;
-    margin:0;
+    padding-top:-20px;
 }
 
 #anterior:hover,#siguiente:hover{
@@ -136,8 +138,9 @@ margin-bottom:-34px;
 #siguiente{
     width:5%;
     border-radius: 50%;
-    background-color: #b8b8b83d;
+    background-color: var(--transparent-white-color);
     font-size: 90px;
+    color:#002E61;
     position:relative;
     top:-400px;
     left:1360px;

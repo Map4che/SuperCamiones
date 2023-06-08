@@ -9,7 +9,7 @@ function cambiarImagen() {
   index++; // Incrementar el índice
 
   // Reiniciar el índice si llega al final del array
-  if (index === imagenes.length) {
+  if (index>= imagenes.length-1) {
     index = 0;
   }
 }
@@ -19,19 +19,19 @@ function iniciarCarrusel() {
   cambiarImagen(); // Cambiar la imagen inicial
 
   // Establecer un intervalo para cambiar la imagen cada 5 segundos (5000 ms)
-  setInterval(cambiarImagen, 5000);
+  setInterval(cambiarImagen, 10000);
 }
 
 // Iniciar el carrusel cuando se carga la página
-window.addEventListener('load', iniciarCarrusel);
+addEventListener('load', iniciarCarrusel);
 
 // Función para cambiar a la imagen anterior
 function cambiarAnterior() {
-  index--; // Decrementar el índice
 
-  // Ciclo circular
-  if (index < 0) {
-    index = imagenes.length - 1;
+  if(index==0){
+    index= imagenes.length -1;
+  }else{
+    index--;
   }
 
   cambiarImagen(); // Cambiar la imagen
@@ -39,12 +39,12 @@ function cambiarAnterior() {
 
 // Función para cambiar a la siguiente imagen
 function cambiarSiguiente() {
-  index++; // Incrementar el índice
 
-  // Ciclo circular
-  if (index === imagenes.length) {
-    index = 0;
-  }
+  if(index==imagenes.length-1){
+    index=0;
+  }else{
+    index++;
+  } 
 
   cambiarImagen(); // Cambiar la imagen
 }
