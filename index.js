@@ -38,14 +38,15 @@ addEventListener('scroll', function() {
   }
 });*/
 
+
 let pantalla = document.querySelector("canvas");
 let pincel = pantalla.getContext("2d");
 pincel.fillStyle='white';
-pincel.fillRect(0,0,500,30);
-
-pantalla.style.cursor= "pointer";
+pincel.fillRect(0,0,500,40);
 
 
+
+/*
 pincel.beginPath();
 pincel.fillStyle='#002E61'
 pincel.arc(130, 20, 10, 0, 2 * Math.PI);
@@ -66,3 +67,4 @@ pincel.beginPath();
 pincel.fillStyle='#002E61'
 pincel.arc(370, 20, 10, 0, 2 * Math.PI);
 pincel.fill();
+*/
