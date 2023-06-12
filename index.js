@@ -16,10 +16,10 @@ let element2 = document.getElementById('logo-whatsapp');
 addEventListener('scroll', function() {
   if (window.pageYOffset > originalTop) {
     element2.style.position = 'fixed';
-    element2.style.top = '670px';
+    element2.style.top = '84%';
   } else {
     element2.style.position = 'absolute';
-    element2.style.top = '670px';
+    element2.style.top = '84%';
   }
 });
 

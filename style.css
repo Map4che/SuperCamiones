@@ -336,22 +336,22 @@ textarea {
   margin: 0 0 0 84px;
 }
 
+.distribuidores-de .container-logos {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
 #sello {
-  box-sizing: border-box;
+  width: 25%;
   position: relative;
-  left: 38%;
-  bottom: -90px;
-  top: 290px;
-  width: 24%;
-  height: 25%px;
-  flex-shrink: 2;
+  top: 8%;
 }
 
 /*      Mapa    */
 
 .ubicacion {
   background: url(./Imagenes/2-01.png);
-
   background-size: contain;
   padding-top: 67px;
   padding-bottom: 50px;
@@ -388,35 +388,41 @@ textarea {
 /*  Footer  */
 
 footer {
-  box-sizing: border-box;
   display: flex;
-  flex-direction: row;
   background: rgb(10, 55, 122);
   width: 100%;
   color: white;
+  font-size: 12px;
+}
+
+.logo-footer {
+  width: 200px;
+  display: flex;
+  margin: 8px -20px 0 20px;
 }
 
 .footer-linea {
   border: 1px solid lightgray;
   height: 200px;
   margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-footer div ul {
-  margin: 40px;
   margin-bottom: 40px;
-  font-size: 12px;
 }
 
-footer div ul li:first-child {
+.footer-container-info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer-container-info div {
+  margin-left: 20px;
+  align-self: center;
+}
+
+.title-lista-footer {
+  font-weight: bold;
   font-size: 14px;
-  font-weight: 600;
-}
-
-.logo-footer {
-  width: 200px;
-  margin: 20px 300px 0 50px;
+  margin-top: 10px;
 }
 
 .redes-sociales {
@@ -434,27 +440,28 @@ footer div ul li:first-child {
 
 .logo-footer-whatsapp {
   position: relative;
-  right: 80px;
-  top: 30px;
+  right: 80%;
+  top: 30%;
 }
 
 /*     **********     Pagina Contacto  **********       */
 
 .contacto h1 {
-  margin-top: 80px;
+  margin-top: 8%;
 }
 
 .container-contacto {
   background: url(./Imagenes/2-01.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 75%;
   color: gray;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 8%;
+  justify-content: center;
 }
 
 .title {
@@ -466,17 +473,22 @@ footer div ul li:first-child {
 
 .container-contacto ul li {
   text-align: center;
+  box-sizing: border-box;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .contacto div ul {
   margin: 20px;
   margin-bottom: 30px;
-  font-size: 16px;
+  font-size: 12px;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .logo-contacto {
   width: 160px;
-  margin: 20px 80px 0 50px;
+  margin: 5px 80px 0 10px;
 }
 
 .contacto div ul li:first-child {
@@ -485,8 +497,8 @@ footer div ul li:first-child {
 
 .contacto-linea {
   border: 1px solid lightgray;
-  height: 400px;
-  margin: 0 40px 0 40px;
+
+  flex-shrink: 2;
 }
 
 /* ******************** Quienes Somos ************ */
