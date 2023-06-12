@@ -145,7 +145,7 @@ nav {
   height: 20px;
   border-radius: 50%;
   background-color: #ccc;
-  margin: 0 15px;
+  margin: -1px 15px;
   cursor: pointer;
 }
 
@@ -186,11 +186,14 @@ nav {
 }
 
 canvas {
+  box-sizing: content-box;
   position: absolute;
   border-radius: 50%;
-  margin-left: 34%;
-  top: 83%;
+  left: 50%;
+  top: calc(80% + 14px);
   z-index: 1;
+  margin: 20px 0 20px;
+  transform: translateX(-50%);
 }
 
 h1 {
