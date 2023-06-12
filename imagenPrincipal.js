@@ -1,13 +1,13 @@
-var imagenes = [
+let imagenes = [
   'Imagenes/344846287_3498258070454003_984927644363278518_n.jpg', 
   'Imagenes/Aliados.jpg', 
   'Imagenes/Mensajero.jpg'
 ];
 
-var index = 0;
-var imagenPrincipal = document.getElementById('imagen-principal');
-var dotsContainer = document.querySelector('.carousel-dots');
-var dots = [];
+let index = 0;
+let imagenPrincipal = document.getElementById('imagen-principal');
+let dotsContainer = document.querySelector('.carousel-dots');
+let dots = [];
 
 function cambiarImagen() {
   imagenPrincipal.style.backgroundImage = `url(${imagenes[index]})`;
@@ -19,8 +19,8 @@ function cambiarImagen() {
 }
 
 function crearDots() {
-  for (var i = 0; i < imagenes.length; i++) {
-    var dot = document.createElement('span');
+  for (let i = 0; i < imagenes.length; i++) {
+    let dot = document.createElement('span');
     dot.addEventListener('click', function () {
       index = Array.from(dots).indexOf(this);
       cambiarImagen();
