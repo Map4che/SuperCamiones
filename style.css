@@ -397,13 +397,12 @@ footer {
 
 .logo-footer {
   width: 200px;
-  display: flex;
-  margin: 8px -20px 0 20px;
+  margin: 8px -40px 0 20px;
 }
 
 .footer-linea {
   border: 1px solid lightgray;
-  height: 200px;
+  height: 100%;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -417,11 +416,12 @@ footer {
 .footer-container-info div {
   margin-left: 20px;
   align-self: center;
+  height: 200px;
 }
 
 .title-lista-footer {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 10px;
 }
 
