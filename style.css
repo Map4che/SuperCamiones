@@ -578,23 +578,28 @@ h3 {
   width: 20%;
 }
 
-.caja-mision-vision div {
-  box-sizing: border-box;
-  display: inline-block;
-  width: 600px;
-  height: 400px;
-  background: rgb(10, 55, 122);
-  margin: 40px -140px 40px 180px;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
-  padding: 20px;
-  border-radius: 25px;
+.caja-mision-vision {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  gap: 5%;
   color: white;
 }
 
-.mision-vision-div :first-child {
-  justify-self: center;
+.caja-mision-vision div {
+  justify-content: center;
+  background: rgb(10, 55, 122);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  padding: 2%;
 }
 
+.imagen-mision-vision {
+  display: flex;
+  margin: 20px auto 20px;
+}
+
+/*
 .imagen-mision-vision {
   box-sizing: border-box;
   display: inline-block;
@@ -603,6 +608,7 @@ h3 {
   align-self: center;
   margin-bottom: 30px;
 }
+*/
 
 /* ***************** NUESTROS PRODUCTOS *********** */
 
