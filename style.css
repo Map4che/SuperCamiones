@@ -688,7 +688,66 @@ h3 {
 }
 
 .container-productos ul li img:hover {
+  cursor: pointer;
   background: #53575a13;
   border: 4px solid red;
   border-radius: 20px;
+}
+
+.eleccion__botones {
+  margin: auto;
+  width: 80%;
+}
+
+.eleccion__marcas {
+  background: lightcyan;
+  color: var(--darkgreycolor);
+  width: 8rem;
+  margin: 0.2rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 1rem;
+  transition: 0.8s;
+}
+
+.eleccion__marcas:hover {
+  cursor: pointer;
+  background-color: var(--darkbluecolor);
+  color: var(--whitecolor);
+}
+
+.eleccion__container-partes {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  background: lightcyan;
+  align-items: center;
+  height: 14rem;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.eleccion__container-partes figure {
+  display: fleX;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.eleccion__image-partes {
+  width: 8rem;
+  transition: 0.8s;
+}
+
+.eleccion__image-partes:hover {
+  cursor: pointer;
+  background: red;
+  border-radius: 20px;
+  width: 9rem;
+}
+
+.eleccion__image-partes--primera {
+  background: var(--darkbluecolor);
+  border-radius: 10px;
 }
