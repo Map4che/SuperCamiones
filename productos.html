@@ -42,10 +42,10 @@
               <li class="logo-top-volkswagen">
                 <a href="volkswagen.html">Volkswagen</a>
                 <img
-                  src="./Logos/VWN_nbdLogo__two_lines_darkblue_4c.png"
+                  src="./Logos/Logo Volkswagen_Mesa de trabajo 1.png"
                   alt="volkswagen-logo"
                   width="40px"
-                  height="40px"
+                  height="25px"
                 />
               </li>
             </ul>
@@ -71,26 +71,26 @@
               src="./Imagenes/1-01.png"
               alt=""
               width="300px"
-              id="productos-nuevos-img"
+              id="botonProductosNuevos"
             />
             <img
               src="./Imagenes/1-02.png"
               alt=""
               width="300px"
-              id="nuestras-ofertas-img"
+              id="botonNuestrasOfertas"
             />
 
             <img
               src="./Imagenes/1-03.png"
               alt=""
               width="300px"
-              id="lo-mas-vendido-img"
+              id="botonMasVendidos"
             />
             <img
               src="./Imagenes/1-04.png"
               alt=""
               width="300px"
-              id="lo-mas-buscado-img"
+              id="botonMasBuscados"
             />
           </li>
         </ul>
@@ -98,12 +98,18 @@
 
       <section class="producto__eleccion">
         <div class="container__eleccion eleccion__productos-nuevos">
-          <h1 class="eleccion__titulo">Productos nuevos</h1>
+          <h1 class="eleccion__titulo">Productos</h1>
           <div class="eleccion__botones">
-            <button class="eleccion__marcas">Kenworth</button>
-            <button class="eleccion__marcas">International</button>
-            <button class="eleccion__marcas">Chevrolet</button>
-            <button class="eleccion__marcas">Ford</button>
+            <button class="eleccion__marcas" id="botonMarcaKenworth">
+              Kenworth
+            </button>
+            <button class="eleccion__marcas" id="botonMarcaInternational">
+              International
+            </button>
+            <button class="eleccion__marcas" id="botonMarcaChevrolet">
+              Chevrolet
+            </button>
+            <button class="eleccion__marcas" id="botonMarcaFord">Ford</button>
           </div>
           <div class="eleccion__container-partes">
             <figure>
@@ -112,7 +118,7 @@
                 alt=""
                 class="eleccion__image-partes eleccion__image-partes--primera"
               />
-              <figC>Motor</figC>
+              <figC id="figMotor">Motor</figC>
             </figure>
             <figure>
               <img
@@ -120,7 +126,7 @@
                 alt=""
                 class="eleccion__image-partes"
               />
-              <figC>Transmisión</figC>
+              <figC id="figTransmision">Transmisión</figC>
             </figure>
             <figure>
               <img
@@ -128,7 +134,7 @@
                 alt=""
                 class="eleccion__image-partes"
               />
-              <figC>Caja</figC>
+              <figC id="figCaja">Caja</figC>
             </figure>
             <figure>
               <img
@@ -136,7 +142,7 @@
                 alt=""
                 class="eleccion__image-partes"
               />
-              <figC>Flujos</figC>
+              <figC id="figFlujos">Flujos</figC>
             </figure>
             <figure>
               <img
@@ -144,14 +150,13 @@
                 alt=""
                 class="eleccion__image-partes"
               />
-              <figC>Accesorios</figC>
+              <figC id="figAccesorios">Accesorios</figC>
             </figure>
           </div>
         </div>
-       
-        <section class="elementos__elegidos">
-          
-        </section>
+        <section class="container__elementos-elegidos"
+        id="elementos__elegidos"">
+      </section>
     </main>
     <footer>
       <div class="lista-footer">
@@ -215,5 +220,6 @@
       </div>
     </footer>
     <script src="index.js"></script>
+    <script src="productos.js"></script>
   </body>
 </html>
