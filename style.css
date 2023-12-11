@@ -9,6 +9,7 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "Regular";
+  max-width: 100vw;
 }
 
 :root {
