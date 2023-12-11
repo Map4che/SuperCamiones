@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   let imagenes = [
-    "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259538/DSC09654_wmx4k1.jpg",
-    "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259493/E-Delivery_Painel_Frontal_nb9wwm.jpg",
-    "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259538/METEOR_28.480_Ambientada_ptylpy.jpg",
+    "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259538/Constellation_33.480_Ambientada_ek7dtz.jpg",
+    "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259538/DSC00266_zx5tvj.jpg",
+    "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259537/Packshot_4_gkalua.jpg",
   ];
 
   let index = 0;
@@ -60,7 +60,20 @@ document.addEventListener("DOMContentLoaded", function () {
   let firstImage = new Image();
   firstImage.onload = function () {
     cambiarImagen();
-    setInterval(cambiarSiguiente, 100000);
+    setInterval(cambiarSiguiente, 10000);
   };
   firstImage.src = imagenes[0];
+});
+
+let element = document.getElementById("fixed-element");
+let originalTop = element.offsetTop;
+
+addEventListener("scroll", function () {
+  if (window.pageYOffset > originalTop) {
+    element.style.position = "fixed";
+    element.style.top = "0";
+  } else {
+    element.style.position = "absolute";
+    element.style.top = "5.8rem";
+  }
 });

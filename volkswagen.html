@@ -11,19 +11,28 @@
   <body>
     <header>
       <ul>
-        <li class="nav-primera-linea">
+        <li class="nav-volkswagen">
           <img
-            src="./Logos/Logo SuperCamiones SAS.png"
-            alt="LogoSuperCamiones"
-            class="logo-navbar"
+            class="logo-volkswagen__volkswagen"
+            src="./Volkswagen/LogoPestanaVolkswagen-01.png"
+            alt=""
           />
-          <label class="parrafo-navbar"
-            >Distribuidores autorizados Volkswagen.</label
-          >
         </li>
         <li>
-          <nav class="nav-segunda-linea" id="fixed-element">
+          <nav
+            class="nav-segunda-linea volkswagen-segunda-linea"
+            id="fixed-element"
+          >
             <ul>
+              <li class="logo-top-volkswagen">
+                <a href="volkswagen.html">Volkswagen</a>
+                <img
+                  src="./Logos/Logo Volkswagen_Mesa de trabajo 1.png"
+                  alt="volkswagen-logo"
+                  width="40px"
+                  height="25px"
+                />
+              </li>
               <li>
                 <a href="index.html">Inicio</a>
               </li>
@@ -39,15 +48,6 @@
               <li>
                 <a href="contacto.html">Contactanos</a>
               </li>
-              <li class="logo-top-volkswagen">
-                <a href="volkswagen.html">Volkswagen</a>
-                <img
-                  src="./Logos/Logo Volkswagen_Mesa de trabajo 1.png"
-                  alt="volkswagen-logo"
-                  width="40px"
-                  height="25px"
-                />
-              </li>
             </ul>
           </nav>
         </li>
@@ -62,67 +62,197 @@
         id="logo-whatsapp"
       />
     </a>
-    <footer>
-      <div class="lista-footer">
-        <img
-          src="./Logos/Logo SuperCamiones SAS.png"
-          alt="LogoVSuperCamiones"
-          class="logo-footer"
-        />
+    <main class="productos-volkswagen">
+      <div class="carousel carousel-volkswagen">
+        <div id="imagen-principal" class="carousel-image"></div>
+        <div class="carousel-dots"></div>
+        <button id="anterior" class="carousel-button">&#8249;</button>
+        <button id="siguiente" class="carousel-button">&#8250;</button>
       </div>
-      <div class="footer-container-info">
-        <div>
-          <ul>
-            <li><label class="title-lista-footer">Dirrección</label></li>
-            <li><label>Carrera 92B 8A 52, Valladolid</label></li>
-            <li><label>Bogotá, Colombia</label></li>
-          </ul>
-          <br />
-          <ul>
-            <li><label class="title-lista-footer">Telefono</label></li>
-            <li><label>6014128650</label></li>
-            <a class="logo-footer-whatsapp"
-              ><img src="./Logos/redes-01.png" alt="logo-whatsapp" width="20px"
-            /></a>
-            <li><label>3208580297 | 3208580261</label></li>
-            <li><label>3208580280 | 3012990445</label></li>
-          </ul>
-          <br />
-          <ul>
-            <li><label class="title-lista-footer">Correo</label></li>
-            <li><label>ventas3@supercamiones.com</label></li>
-          </ul>
+      <h1 class="productos-volkswagen__title">Productos Volkswagen</h1>
+
+      <section class="producto__eleccion">
+        <div class="eleccion__botones">
+          <button class="eleccion__marcas" id="botonMarcaKenworth">
+            Volkswagen
+          </button>
         </div>
-        <div class="footer-linea"></div>
-        <div class="container-lado-derecho">
-          <ul>
-            <li>
-              <label class="title-lista-footer">Horarios de atención</label>
-            </li>
+        <div class="container__eleccion eleccion__productos-nuevos">
+          <div class="eleccion__container-partes">
+            <figure>
+              <img
+                src="./Logos/Iconos supercamiones SAS-01.png"
+                alt=""
+                class="eleccion__image-partes eleccion__image-partes--primera"
+              />
+              <figC id="figMotor">Motor</figC>
+            </figure>
+            <figure>
+              <img
+                src="./Logos/Iconos supercamiones SAS-02.png"
+                alt=""
+                class="eleccion__image-partes transmision"
+              />
+              <figC id="figTransmision">Transmisión</figC>
+            </figure>
+            <figure>
+              <img
+                src="./Logos/Iconos supercamiones SAS-03.png"
+                alt=""
+                class="eleccion__image-partes"
+              />
+              <figC id="figCaja">Caja</figC>
+            </figure>
+            <figure>
+              <img
+                src="./Logos/Retenedores y balineras_Mesa de trabajo 1.png"
+                alt=""
+                class="eleccion__image-partes retenedores-balineras"
+              />
+              <figC id="figFlujos">Retenedores y balineras</figC>
+            </figure>
+            <figure>
+              <img
+                src="./Logos/Iconos supercamiones SAS-05.png"
+                alt=""
+                class="eleccion__image-partes accesorios"
+              />
+              <figC id="figAccesorios">Accesorios</figC>
+            </figure>
+          </div>
+        </div>
+        <section class="container__elementos-elegidos"
+        id="elementos__elegidos"">
+      </section>
+      <section class="container-form__volkswagen">
+        <h1 class="form-title">Cotiza fácilmente tu pieza Volkswagen</h1>
+        <form action="" class="form-volkswagen">
+          <h3 class="volkswagen-form-subtitle">
+            Ingresa tus datos y un asesor se pondrá en contacto contigo
+          </h3>
+          <div class="big-form-container">
+            <div class="small-form-container">
+              <div class="form-container">
+                <div class="form-fild__volkswagen">
+                  <label for="nombre">Nombre</label>
+                  <input class="input-volkswagen" id="nombre" type="text" />
+                </div>
+                <div class="form-fild__volkswagen">
+                  <label for="telefono">Teléfono</label>
+                  <input class="input-volkswagen" id="telefono" type="text" />
+                </div>
+                <div class="form-fild__volkswagen">
+                  <label for="email">Correo electrónico</label>
+                  <input class="input-volkswagen" id="email" type="text" />
+                </div>
+              </div>
+              <div class="form-container">
+                <div class="form-fild__volkswagen">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea name="" id="mensaje" cols="2" rows="7"></textarea>
+                </div>
+              </div>
+            </div>
+            <div>
+              <input type="checkbox" id="autorizacion-volkswagen" />
+              <label
+                class="label-permisos__volkswagen"
+                for="autorizacion-volkswagen"
+                >Autorizo el uso de mis datos personales para que
+                <strong class="resaltar-supercamiones">SuperCamiones SAS</strong
+                >, me contacten por los canales compartids anteriormente, con el
+                fin de recibir informacion relacionada con la solicitud de
+                cotización</label
+              >
+              <div>
+                <input type="checkbox" id="consentimiento-volkswagen" />
+                <label
+                  class="label-permisos__volkswagen"
+                  for="consentimiento-volkswagen"
+                  >Acepto recebir publicidad promocional y de mecadeo por parte
+                  de
+                  <strong class="resaltar-supercamiones"
+                    >SuperCamiones SAS</strong
+                  >
+                  por los canales compartidos anteriormente</label
+                >
+              </div>
+            </div>
+            <button class="button-form__volkswagen">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="container-footer__volkswagen">
+        <div class="lista-footer">
+          <img
+            class="logo-volkswagen__volkswagen"
+            src="./Volkswagen/LogoPestanaVolkswagen-01.png"
+            alt=""
+          />
+        </div>
+        <div class="footer-container-info footer-container-info__volkswagen">
+          <div>
+            <ul>
+              <li><label class="title-lista-footer">Dirrección</label></li>
+              <li><label>Carrera 92B 8A 52, Valladolid</label></li>
+              <li><label>Bogotá, Colombia</label></li>
+            </ul>
             <br />
-            <li><label>Lunes a Viernes de 8:00 AM a 6:00 PM</label></li>
-            <li><label>Sábados de 8:00 AM a 2:00 PM</label></li>
-            <br /><br /><br /><br />
-            <a
-              class="redes-sociales"
-              href="https://www.facebook.com/supercamionesSAS"
-              ><img
-                src="./Logos/redes-02.png"
-                alt="logo-facebook"
-                width="30px;"
-              />Facebook</a
-            >
-            <a class="redes-sociales"
-              ><img
-                src="./Logos/redes-03.png"
-                alt="logo-instagram"
-                width="30px;"
-              />Instagram</a
-            >
-          </ul>
+            <ul>
+              <li><label class="title-lista-footer">Telefono</label></li>
+              <li><label>6014128650</label></li>
+              <a class="logo-footer-whatsapp"
+                ><img
+                  src="./Logos/redes-01.png"
+                  alt="logo-whatsapp"
+                  width="20px"
+              /></a>
+              <li><label>3208580297 | 3208580261</label></li>
+              <li><label>3208580280 | 3012990445</label></li>
+            </ul>
+            <br />
+            <ul>
+              <li><label class="title-lista-footer">Correo</label></li>
+              <li><label>ventas3@supercamiones.com</label></li>
+            </ul>
+          </div>
+          <div class="footer-linea"></div>
+          <div class="container-lado-derecho">
+            <ul>
+              <li>
+                <label class="title-lista-footer">Horarios de atención</label>
+              </li>
+              <br />
+              <li><label>Lunes a Viernes de 8:00 AM a 6:00 PM</label></li>
+              <li><label>Sábados de 8:00 AM a 2:00 PM</label></li>
+              <br /><br /><br /><br />
+              <a
+                class="redes-sociales redes-sociales__volkswagen"
+                href="https://www.facebook.com/supercamionesSAS"
+                target="_blank"
+                ><img
+                  src="./Logos/redes-02.png"
+                  alt="logo-facebook"
+                  width="30px;"
+                />Facebook</a
+              >
+              <a
+                class="redes-sociales redes-sociales__volkswagen"
+                href="https://www.instagram.com/supercamionesas/"
+                target="_blank"
+                ><img
+                  src="./Logos/redes-03.png"
+                  alt="logo-instagram"
+                  width="30px;"
+                />Instagram</a
+              >
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
-    <script src="index.js"></script>
+    <script src="volkswagen.js"></script>
   </body>
 </html>

@@ -8,6 +8,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: "Regular";
 }
 
 :root {
@@ -28,23 +29,11 @@
   src: url("./Fuentes/VWHeadBold.otf");
 }
 
-* {
-  font-family: "Regular";
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Regular";
-}
-
 body {
   width: auto;
   box-sizing: border-box;
   flex-shrink: 1;
+  overflow-x: hidden;
 }
 
 /*** Primera linea del navbar*/
@@ -462,6 +451,7 @@ footer {
   width: 100%;
   color: white;
   font-size: 12px;
+  max-width: 100vw;
 }
 
 .logo-footer {
@@ -863,4 +853,111 @@ h3 {
 .container__elementos-elegidos p {
   color: var(--darkgreycolor);
   font-size: 0.6rem;
+}
+
+.productos-volkswagen__title {
+  margin-top: 4rem;
+}
+
+.nav-volkswagen {
+  position: absolute;
+  z-index: 4;
+}
+
+.volkswagen-segunda-linea {
+  top: 5.8rem;
+}
+
+.logo-volkswagen__volkswagen {
+  width: 100rem;
+  margin: 1rem 0 1rem 0;
+}
+.carousel-volkswagen {
+  margin-top: -1.5rem;
+}
+
+.form-title {
+  width: 44%;
+}
+
+.volkswagen-form-subtitle {
+  font-size: 1.4rem;
+}
+
+.big-form-container {
+  width: 40%;
+  margin: 0 auto 2rem;
+  color: #53575a;
+}
+
+.small-form-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem auto;
+  width: 50%;
+}
+
+.form-container label {
+  color: #53575a;
+  margin: 0.5rem 0;
+}
+
+.form-fild__volkswagen {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-volkswagen {
+  background: rgb(233, 230, 230);
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  padding: 0.4rem 1rem 0.4rem;
+}
+
+.label-permisos__volkswagen {
+  font-size: 0.8rem;
+}
+
+.resaltar-supercamiones {
+  font-weight: 900;
+}
+
+.button-form__volkswagen {
+  display: flex;
+  color: #53575a;
+  background-color: rgb(233, 230, 230);
+  margin: 2rem auto 4rem;
+  border-radius: 2rem;
+  padding: 1rem 3rem 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.container-footer__volkswagen {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container-info__volkswagen {
+  width: 100%;
+  margin-left: 3rem;
+}
+
+.redes-sociales__volkswagen {
+  font-size: 1rem;
+  margin-right: -1.4rem;
+}
+.redes-sociales__volkswagen img {
+  width: 1rem;
 }
