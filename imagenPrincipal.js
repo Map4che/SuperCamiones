@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   let imagenes = [
+    "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702260731/poster_of_a_truck_with_white_container_conceptu_kdoirl.jpg",
     "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259538/DSC09654_wmx4k1.jpg",
     "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259493/E-Delivery_Painel_Frontal_nb9wwm.jpg",
     "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259538/METEOR_28.480_Ambientada_ptylpy.jpg",
