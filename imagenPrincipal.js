@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let firstImage = new Image();
   firstImage.onload = function () {
     cambiarImagen();
-    setInterval(cambiarSiguiente, 100000);
+    setInterval(cambiarSiguiente, 10000);
   };
   firstImage.src = imagenes[0];
 });
