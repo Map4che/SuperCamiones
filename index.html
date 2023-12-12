@@ -62,7 +62,7 @@
       <section class="servicios" id="servicios">
         <div class="servicios-p">
           <h1>Nuestros servicios</h1>
-          <p>
+          <p class="servicios-info__principal">
             
             Somos una empresa dedicada al comercio y distribución de autopartes para camiones y buses 
             de diferentes marcas enfatizándonos en la distribución directa de repuestos originales Volkswagen, 
@@ -102,16 +102,17 @@
 
       <section class="cotiza" id="cotiza">
         <h1>Cotiza facilmente con nosotros</h1>
-
+        <form action="https://formsubmit.co/cris-dav96@hotmail.com" method="POST">
         <ul class="container-formulario">
+          
           <li class="formulario">
             <h4>Ingresa tus datos y nos pondremos en contacto contigo</h4>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" />
+            <label for="nombre" >Nombre</label>
+            <input type="text" id="nombre" name="Nombre"/>
             <label for="telefono">Telefono</label>
-            <input type="telefono" id="telefono" />
+            <input type="telefono" id="telefono" name="Telefono" />
             <label for="email">Email</label>
-            <input type="email" placeholder="tuemail@email.com" id="email" />
+            <input type="email" placeholder="tuemail@email.com" id="email" name="Email" />
             <label for="mensaje">Mensaje</label>
             <textarea
               type="text"
@@ -119,6 +120,7 @@
               cols="0"
               id="mensaje"
               placeholder="Escribe tu mensaje aqui..."
+              name="Mensaje"
             ></textarea>
             <input
               type="submit"
@@ -139,31 +141,29 @@
                 </li>
                 <li>
                   <label class="checkbox">
-                    <input type="checkbox" />
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some
-                    form, by injected humour, or randomised words which don't
-                    look even slightly believable.
+                    <input type="checkbox" name="Autorizo1"/>
+                    Autorizo el uso de mis datos personales para que SuperCamiones SAS, me contacten por los canales compartidos anteriormente, con el fin de recibir información relacionada con la solicitud de cotización.
                   </label>
                 </li>
                 <li>
                   <label class="checkbox">
-                    <input type="checkbox" />
-                    If you are going to use a passage of Lorem Ipsum, you need
-                    to be sure there isn't anything embarrassing hidden in the
-                    middle of text. All the Lorem Ipsum generators on the
-                    Internet tend to repeat predefined chunks as necessary
+                    <input type="checkbox" name="Autorizo2"/>
+                    Acepto recibir publicidad promocional y de mercadeo por parte de SuperCamiones SAS por los canales compartidos anteriormente.
                   </label>
                 </li>
               </ul>
             </div>
           </li>
         </ul>
+      </form>
       </section>
 
       <section class="distribuidores-de">
         <div>
           <h1>Somos distribuidores de:</h1>
+        </div>
+        <div class="logovolkswagen-distribuidores">
+          <img class="logovolkswagen-distribuidores__img" src="./Logos/Logo Volkswagen-01.png" alt="Volkswagen">
         </div>
         <div class="container-logos" >
   
@@ -214,6 +214,12 @@
           src="./Logos/Logo SuperCamiones SAS.png"
           alt="LogoVSuperCamiones"
           class="logo-footer"
+        />
+
+        <img
+          src="./Logos/Logo Volkswagen 1-01.png"
+          alt="LogoVSuperCamiones"
+          class="logo-footer logo-footer__volkswagen"
         />
       </div>
       <div class="footer-container-info">

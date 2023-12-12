@@ -213,15 +213,13 @@ h1 {
 }
 
 .servicios {
-  margin-top: 80px;
+  margin-top: 8rem;
 }
 
-.servicios-p {
-  text-align: center;
+.servicios-info__principal {
   width: 70%;
+  text-align: center;
   margin: auto;
-  margin-top: 28px;
-  margin-bottom: 40px;
 }
 
 .tonoAutorizados {
@@ -243,17 +241,18 @@ h1 {
 }
 
 .container__nuestros-servicios {
+  width: 70%;
   display: flex;
-  margin: 2rem;
-  padding: 2rem;
+  margin: 2rem auto;
   gap: 4rem;
 }
 
 .container-caja__nuestros-servicios {
   border-radius: 1rem;
   border: 1px solid rgba(158, 156, 156, 0.692);
-  padding: 0 0 2rem;
+  padding: 0 0 2rem 0;
   text-align: start;
+  width: 20rem;
 }
 
 .imagen-saludo {
@@ -390,6 +389,43 @@ textarea {
   margin-top: 52px;
 }
 
+.logovolkswagen-distribuidores {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #002e61;
+  margin: auto;
+  width: 28rem;
+  height: 10rem;
+  border-radius: 1rem;
+}
+
+.logovolkswagen-distribuidores::before,
+.logovolkswagen-distribuidores::after {
+  content: "";
+  position: absolute;
+  width: 136%;
+  height: 2px;
+  background-color: #002e61;
+}
+
+.logovolkswagen-distribuidores::before {
+  top: 50%;
+  left: -38rem;
+  transform: translate(0, -50%);
+}
+
+.logovolkswagen-distribuidores::after {
+  top: 50%;
+  left: 28rem;
+  transform: translate(0, -50%);
+}
+
+.logovolkswagen-distribuidores__img {
+  width: 9rem;
+}
+
 .container-logos {
   box-sizing: border-box;
   background-image: url(./Logos/1_Mesa\ de\ trabajo\ 1.png);
@@ -473,8 +509,12 @@ footer {
 }
 
 .logo-footer {
-  width: 200px;
-  margin: 8px -40px 0 20px;
+  width: 12rem;
+  margin: 2rem 0 0 4rem;
+}
+
+.logo-footer__volkswagen {
+  margin-top: 3rem;
 }
 
 .footer-linea {
@@ -488,6 +528,7 @@ footer {
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-left: -20rem;
 }
 
 .footer-container-info div {
@@ -684,7 +725,7 @@ h3 {
   border-top: 1px solid gray;
 }
 
-.historia {
+.historia-quienesSomos__container {
   margin: 20px;
   padding: 20px;
   font-size: 14px;
