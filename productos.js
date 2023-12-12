@@ -282,12 +282,11 @@ for (let i = 0; i < images.length; i++) {
 }
 
 function mostrarElementosPorCategoriaYMarca(categoria = "", marca = "") {
-  productosMostrar.innerHTML = ""; // Limpia el contenedor antes de mostrar los elementos filtrados
+  productosMostrar.innerHTML = "";
 
   for (let i = 0; i < images.length; i++) {
     let image = images[i];
 
-    // Comprueba si la categoría y la marca del objeto coinciden con las seleccionadas (ignora el filtro si el parámetro está vacío)
     if (
       (categoria === "" || image.category === categoria) &&
       (marca === "" || image.brand === marca)
@@ -371,7 +370,7 @@ botonMarcaFord.addEventListener("click", function () {
   mostrarElementosPorCategoriaYMarca(categoria, "ford");
 });
 
-mostrarElementosPorCategoriaYMarca(); // Muestra todos los elementos
-mostrarElementosPorCategoriaYMarca("productos-nuevos"); // Filtra por categoría "productos-nuevos"
-mostrarElementosPorCategoriaYMarca("", "kenworth"); // Filtra por marca "kenworth"
-mostrarElementosPorCategoriaYMarca("productos-nuevos", "kenworth"); // Filtra por categoría "productos-nuevos" y marca "kenworth"
+mostrarElementosPorCategoriaYMarca();
+mostrarElementosPorCategoriaYMarca("productos-nuevos");
+mostrarElementosPorCategoriaYMarca("", "kenworth");
+mostrarElementosPorCategoriaYMarca("productos-nuevos", "kenworth");

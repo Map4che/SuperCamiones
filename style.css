@@ -802,17 +802,16 @@ h3 {
   cursor: pointer;
   background: red;
   border-radius: 20px;
-  width: 9rem;
 }
 
 .eleccion__image-partes--primera {
-  background: var(--darkbluecolor);
   border-radius: 10px;
 }
 
 .retenedores-balineras,
 .accesorios,
-.transmision {
+.transmision,
+.filtros {
   width: 8rem;
   margin: 1rem 0 -2rem;
 }
@@ -828,6 +827,10 @@ h3 {
 #figFlujos,
 #figAccesorios {
   margin-top: 2.4rem;
+}
+
+#figFiltros {
+  margin-top: 1.8rem;
 }
 
 .container__elementos-elegidos {
