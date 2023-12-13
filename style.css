@@ -940,6 +940,7 @@ h3 {
 
 .form-title {
   width: 44%;
+  margin-top: 4rem;
 }
 
 .volkswagen-form-subtitle {
@@ -1022,4 +1023,15 @@ h3 {
 }
 .redes-sociales__volkswagen img {
   width: 1rem;
+}
+
+.img-productos__list {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 1rem;
+}
+
+.container-product__list p {
+  color: #002e61;
+  font-size: 1rem;
 }

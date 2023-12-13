@@ -156,11 +156,6 @@ let images = [
     title: "Filtros_de_Aire_qkfczm",
     category: "filtros",
   },
-  {
-    src: "",
-    title: "",
-    category: "retenedores y balineras",
-  },
 ];
 
 let mostrarProductos = document.getElementById("elementos__elegidos");
@@ -195,8 +190,10 @@ for (let i = 0; i < images.length; i++) {
   let imageContainer = document.createElement("div");
   imageContainer.appendChild(imageElement);
   imageContainer.appendChild(titleElement);
+  imageElement.className = "img-productos__list";
 
   mostrarProductos.appendChild(imageContainer);
+  imageContainer.className = "container-product__list";
 }
 
 function mostrarElementosPorCategoria(categoria = "") {
@@ -209,6 +206,7 @@ function mostrarElementosPorCategoria(categoria = "") {
       {
         let imageElement = document.createElement("img");
         imageElement.src = image.src;
+        imageElement.className = "img-productos__volkswagen";
 
         let titleElement = document.createElement("p");
         titleElement.textContent = image.title;
@@ -218,6 +216,7 @@ function mostrarElementosPorCategoria(categoria = "") {
         imageContainer.appendChild(titleElement);
 
         mostrarProductos.appendChild(imageContainer);
+        imageContainer.className = "container-product__list";
       }
     }
   }
