@@ -88,37 +88,37 @@ let images = [
   },
   {
     src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259379/Rodillos_Para_Ruedas_rod0qs.jpg",
-    title: "Rodillos_Para_Ruedas_rod0qs",
+    title: "Rodillos para ruedas",
     category: "retenedores y balineras",
   },
   {
     src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259375/Retenes_Transmision_fswsbm.jpg",
-    title: "Retenes_Transmision_fswsbm",
+    title: "Retenes transmision",
     category: "retenedores y balineras",
   },
   {
     src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259371/Retenes_Cajas_De_Cambios_yxdcav.jpg",
-    title: "Retenes_Cajas_De_Cambios_yxdcav",
+    title: "Retenes cajas de cambios",
     category: "retenedores y balineras",
   },
   {
     src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259367/Rodillos_Para_Cajas_y56swd.jpg",
-    title: "Rodillos_Para_Cajas_y56swd",
+    title: "Rodillos para cajas",
     category: "retenedores y balineras",
   },
   {
     src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259363/Retenes_Ruedas_iqopbj.jpg",
-    title: "Retenes_Ruedas_iqopbj",
+    title: "Retenes ruedas",
     category: "retenedores y balineras",
   },
   {
     src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259358/Balineras_Para_TODO_gqbfot.jpg",
-    title: "Balineras_Para_TODO_gqbfot",
+    title: "Balineras para todo",
     category: "retenedores y balineras",
   },
   {
     src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259354/Balineras_Para_Clutch_a084qp.jpg",
-    title: "Balineras_Para_Clutch_a084qp",
+    title: "Balineras para clutch",
     category: "retenedores y balineras",
   },
   {
@@ -138,22 +138,22 @@ let images = [
   },
   {
     src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259338/Rodillos_Para_Transmision_cj5ivm.jpg",
-    title: "Rodillos_Para_Transmision_cj5ivm",
+    title: "Rodillos para transmision",
     category: "retenedores y balineras",
   },
   {
     src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259466/Filtros_de_Aceite_zwrge1.jpg",
-    title: "Filtros_de_Aceite_zwrge1",
+    title: "Filtros de aceite",
     category: "filtros",
   },
   {
     src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702355315/Filtros_de_Combustible_1_ecvuhm.jpg",
-    title: "Filtros_de_Combustible_1_ecvuhm",
+    title: "Filtros de combustible 1",
     category: "filtros",
   },
   {
     src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702355315/Filtros_de_Aire_qkfczm.jpg",
-    title: "Filtros_de_Aire_qkfczm",
+    title: "Filtros de aire",
     category: "filtros",
   },
 ];

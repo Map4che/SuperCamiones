@@ -241,7 +241,7 @@ h1 {
 }
 
 .container__nuestros-servicios {
-  width: 70%;
+  width: 90%;
   display: flex;
   margin: 2rem auto;
   gap: 4rem;
@@ -263,6 +263,8 @@ h1 {
 
 .title__nuestors-servicios {
   margin-bottom: 2rem;
+  margin-left: 1rem;
+  text-align: start;
 }
 
 .p__nuestros-servicios {

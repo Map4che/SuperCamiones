@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   let quienesSomos = [
-    `Somos distribuidores autorizados de repuestos Volkswagen
-    para todo tipo de camiones WORKER, CONSTELLAT.`,
+    `Somos distribuidores de repuestos autorizados
+    para la marca Volkswagen buses y camiones.`,
 
     `En el año 2004, gracias a los conocimientos y la práctica 
     adquirida durante 20 años, surgió la idea de ser 
