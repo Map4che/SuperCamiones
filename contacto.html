@@ -7,6 +7,10 @@
     <title>Contáctanos</title>
     <link rel="icon" type="image/x-icon" href="./Logos/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/hamburguer.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/contacto.css" />
   </head>
   <body>
     <header>
@@ -22,6 +26,14 @@
           >
         </li>
         <li>
+          <div class="hamburguer">
+            <input type="checkbox" id="check" />
+            <label class="toggle" id="toggle" for="check">
+              <line class="toggle__line" id="toggle__line"></line>
+              <line class="toggle__line" id="toggle__line"></line>
+              <line class="toggle__line" id="toggle__line"></line>
+            </label>
+          </div>
           <nav class="nav-segunda-linea" id="fixed-element">
             <ul>
               <li class="logo-top-volkswagen">
@@ -163,5 +175,6 @@
       </div>
     </section>
     <script src="index.js"></script>
+    <script src="hamburguer.js"></script>
   </body>
 </html>

@@ -1,0 +1,106 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background: rgb(10, 55, 122);
+  width: 100%;
+  color: white;
+  font-size: 12px;
+  max-width: 100vw;
+}
+
+.logo-footer {
+  width: 12rem;
+  margin: 2rem 0 0 5rem;
+}
+
+.logo-footer__volkswagen {
+  margin: 3rem 6rem;
+}
+
+.footer-linea {
+  display: none;
+}
+
+.footer-container-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-container-info div {
+  margin-left: 20px;
+  align-self: center;
+  height: 200px;
+}
+
+.title-lista-footer {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.redes-sociales {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  padding-right: 50px;
+  cursor: pointer;
+  transform: scale(1.4);
+}
+
+.redes-sociales :hover {
+  transform: scale(1.4);
+}
+
+.logo-footer-whatsapp {
+  position: relative;
+  right: 50%;
+  top: 8vw;
+}
+
+.container-lado-derecho {
+  margin: 2rem 0 4rem;
+}
+
+@media screen and (min-width: 720px) {
+  footer {
+    flex-direction: row;
+  }
+
+  .footer-container-info {
+    margin-left: -20rem;
+    flex-direction: row;
+  }
+
+  .logo-footer {
+    width: 12rem;
+    margin: 2rem 0 0 4rem;
+  }
+
+  .logo-footer__volkswagen {
+    margin: 3rem 0 0 4rem;
+  }
+
+  .footer-container-info {
+    text-align: justify;
+  }
+
+  .logo-footer-whatsapp {
+    right: 40%;
+    top: 1.8vw;
+  }
+
+  .footer-linea {
+    display: block;
+    border: 1px solid lightgray;
+    height: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .container-lado-derecho {
+    margin: 0;
+  }
+}

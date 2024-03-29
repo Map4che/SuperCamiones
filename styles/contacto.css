@@ -1,0 +1,115 @@
+.contacto h1 {
+  margin-top: 50px;
+}
+.container-contacto {
+  background: url(../Imagenes/Fondo\ contactanos.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  width: 80%;
+  height: 60%;
+  margin: 0 auto 4rem;
+}
+
+.contacto-div-logo {
+  margin: 1rem;
+}
+
+.img-contacto {
+  width: 12rem;
+  height: 6rem;
+}
+
+.contacto-div-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #53575a;
+  padding: 5rem;
+  border-right: 2px solid #53575aad;
+}
+
+.contacto-div-contacto2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #53575a;
+  padding: 5rem;
+  justify-content: start;
+}
+
+.contacto-div-contacto__title {
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+.contacto-div-extensiones {
+  display: flex;
+  align-items: center;
+}
+
+.container-contacto-div-contacto-sub {
+  font-size: 1rem;
+  color: #53575a;
+  margin: 1rem 0;
+}
+
+.container-sub {
+  color: white;
+  background-color: #53575a;
+  padding: 0.5rem 2rem;
+  margin: 0 2rem;
+  border-radius: 0.3rem;
+}
+
+.contacto-div-contacto__subtitle {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  padding: 1rem 0 0;
+  color: white;
+}
+
+.contacto-carrito {
+  width: 4rem;
+  height: 4rem;
+}
+
+.contacto-div-correo-whats {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.whats-contacto {
+  width: 2.7rem;
+  margin-right: 1rem;
+}
+
+.logos-contacto {
+  width: 3rem;
+}
+
+.logos-enlaces {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.horarios {
+  margin-top: 2.3rem;
+}
+
+.logo-enlaces-facebook {
+  transition: 0.8s;
+  &:hover {
+    filter: sepia(100%) hue-rotate(200deg) saturate(500%);
+  }
+}
+
+.logo-enlaces-instagram {
+  transition: 0.8s;
+  &:hover {
+    filter: sepia(100%) hue-rotate(-100deg) saturate(800%);
+  }
+}

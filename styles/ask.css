@@ -1,0 +1,137 @@
+.cotiza {
+  padding: 20px;
+  background: url(../Imagenes/2-01\ invertido.png);
+  background-size: contain;
+}
+
+.cotiza h1 {
+  margin-top: 25px;
+  border-bottom: 1px solid var(--darkbluecolor);
+}
+
+.container-formulario {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 25px;
+  width: 80%;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  background: white;
+  width: 100%;
+  height: auto;
+  padding: 19px;
+  border-top-left-radius: 20px;
+}
+
+.formulario h4 {
+  text-align: center;
+  color: var(--darkbluecolor);
+  font-weight: bolder;
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 38px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.formulario label {
+  margin-bottom: 7px;
+  font-size: 13px;
+  color: #989898;
+}
+
+.formulario input,
+textarea {
+  background: #e5e5e5;
+  width: 100%;
+  height: 1%;
+  padding: 12px;
+  border-radius: 25px;
+  color: black;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.formulario textarea {
+  height: 16%;
+}
+
+.imagen-formulario {
+  display: none;
+}
+
+.container-cotiza-info {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 15px;
+}
+
+.container-cotiza-info ul li {
+  margin-bottom: 20px;
+  margin: 17px 14px 22px 32px;
+  color: #989898;
+}
+
+.container-cotiza-info ul li:first-child {
+  list-style: none;
+}
+
+#boton-formulario {
+  font-size: 13px;
+  width: 40%;
+  height: 7%;
+  margin: auto;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: 800ms;
+  order: +2;
+}
+
+#boton-formulario:hover {
+  background: #b8b8b8;
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 720px) {
+  .imagen-formulario {
+    display: flex;
+    box-sizing: border-box;
+    width: 99%;
+    border-radius: 25px;
+    flex-shrink: 2;
+  }
+
+  .container-formulario {
+    flex-direction: row;
+  }
+
+  .formulario {
+    width: 20%;
+    border-bottom-left-radius: 20px;
+  }
+
+  .container-cotiza-info {
+    width: 60%;
+  }
+
+  .container-formulario {
+    background: var(--darkbluecolor);
+  }
+
+  .container-cotiza-info ul li {
+    color: #e5e5e5;
+  }
+
+  .cotiza h1 {
+    border-bottom: 4px solid var(--darkbluecolor);
+    width: 400px;
+  }
+}

@@ -1,0 +1,152 @@
+.quienes-somos {
+  margin-top: 20px;
+}
+
+.quienes-somos h1 {
+  width: 50%;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--darkbluecolor);
+}
+
+#legend-scroll {
+  display: none;
+}
+
+.legend {
+  width: 100%;
+}
+
+.imagen-nosotros {
+  width: 300px;
+  height: 200px;
+  margin: 1rem;
+  border-radius: 15px;
+}
+
+.container-nosotros {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  box-sizing: border-box;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  background: linear-gradient(to right, white 10%, lightcyan);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.text-legend {
+  border-top: 1px solid gray;
+  color: var(--darkgreycolor);
+  padding: 1rem;
+  font-size: 12px;
+}
+
+.mision-vision {
+  width: 100%;
+  box-sizing: border-box;
+  background: url(../Imagenes/2-01\ invertido.png);
+  padding: 50px 0 80px 0;
+  margin-bottom: -20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mision-vision h1 {
+  width: 50%;
+}
+
+.caja-mision-vision {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 5%;
+  color: white;
+}
+
+.caja-mision-vision div {
+  justify-content: center;
+  background: rgb(10, 55, 122);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  padding: 2%;
+}
+
+.imagen-mision-vision {
+  display: flex;
+  margin: 20px auto 20px;
+}
+
+.mision-vision-div {
+  margin-bottom: 2rem;
+  font-size: 12px;
+}
+
+.mision-vision-div p {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 720px) {
+  .quienes-somos h1 {
+    width: 22%;
+  }
+
+  #legend-scroll {
+    display: flex;
+  }
+
+  .imagen-nosotros {
+    width: 100%;
+    height: auto;
+    margin: 48px 10px 20px 10px;
+  }
+
+  .legend {
+    width: 50%;
+  }
+
+  .container-nosotros {
+    margin: 50px 0 50px 0;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+  }
+
+  .historia-quienesSomos__container {
+    margin: 20px;
+    padding: 20px;
+    font-size: 14px;
+    width: 90%;
+    height: 450px;
+    overflow: auto;
+    border-left: 2px solid gray;
+  }
+
+  .text-legend {
+    font-size: 18px;
+  }
+
+  .quienes-somos {
+    margin-top: 80px;
+  }
+
+  .mision-vision h1 {
+    width: 20%;
+  }
+
+  .caja-mision-vision {
+    flex-direction: row;
+    width: 70%;
+  }
+
+  .mision-vision-div {
+    font-size: 20px;
+  }
+}

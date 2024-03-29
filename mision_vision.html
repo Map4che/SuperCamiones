@@ -1,137 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>¿Quienes somos?</title>
-    <link rel="icon" type="image/x-icon" href="./Logos/favicon.ico" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <ul>
-        <li class="nav-primera-linea">
-          <img
-            src="./Logos/Logo SuperCamiones SAS.png"
-            alt="LogoSuperCamiones"
-            class="logo-navbar"
-          />
-          <label class="parrafo-navbar"
-            >Distribuidores autorizados Volkswagen.</label
-          >
-        </li>
-        <li>
-          <nav class="nav-segunda-linea" id="fixed-element">
-            <ul>
-              <li class="logo-top-volkswagen">
-                <a href="volkswagen.html">Volkswagen</a>
-                <img src="./Logos/Logo Volkswagen_Mesa de trabajo 1.png" alt="volkswagen-logo" width="40px" height="25px" >
-              </li>
-              <li>
-                <a href="index.html">Inicio</a>
-              </li>
-              <li>
-                <a href="./mision_vision.html">¿Quienes somos?</a>
-              </li>
-              <li>
-                <a href="./index.html#cotiza">Cotiza fácilmente</a>
-              </li>
-              <li>
-                <a href="productos.html">Productos</a>
-              </li>
-              <li>
-                <a href="contacto.html">Contáctanos</a>
-              </li>
-              
-            </ul>
-          </nav>
-        </li>
-      </ul>
-    </header>
-    <section class="quienes-somos" id="quienes-somos">
-      <h1>¿Quienes somos?</h1>
-      <div class="container-nosotros">
-        <div class="legend">
-          <ul class="lista-quienes-somos">
-            <li >
-              <h3>SuperCamiones SAS</h3>
-              <img
-                src="./Imagenes/318180803_5659736150777710_4639532469849390862_n.jpg"
-                alt="Nuestro_equipo"
-                class="imagen-nosotros"
-              />
-              <p class="text-legend">
-                Estamos orgullosos de nuestro equipo de trabajo, que está siempre dispuesto a ayudar y a hacer que su experiencia sea lo más agradable posible.
-              </p>
-            </li>
-          </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¿Quienes somos?</title>
+  <link rel="icon" type="image/x-icon" href="./Logos/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./styles/hamburguer.css" />
+  <link rel="stylesheet" href="./styles/navbar.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <link rel="stylesheet" href="./styles/quienesSomos.css" />
+</head>
+
+<body>
+   <header>
+    <ul>
+      <li class="nav-primera-linea">
+        <img src="./Logos/Logo SuperCamiones SAS.png" alt="LogoSuperCamiones" class="logo-navbar" />
+        <label class="parrafo-navbar">Distribuidores autorizados Volkswagen.</label>
+      </li>
+      <li>
+        <div class="hamburguer">
+        <input type="checkbox" id="check">
+        <label class="toggle" id="toggle" for="check">
+
+          <line class="toggle__line" id="toggle__line"></line>
+          <line class="toggle__line" id="toggle__line"></line>
+          <line class="toggle__line" id="toggle__line"></line>
+        </label>
         </div>
-        <div class="legend">
-        <ul  id="legend-scroll">
-          <li >
+        <nav class="nav-segunda-linea" id="fixed-element">
+          <ul>
+            <li class="logo-top-volkswagen">
+              <a href="volkswagen.html">Volkswagen</a>
+              <img src="./Logos/Logo Volkswagen_Mesa de trabajo 1.png" alt="volkswagen-logo" width="40px" height="25px">
+            </li>
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="./mision_vision.html">¿Quienes somos?</a>
+            </li>
+            <li>
+              <a href="./index.html#cotiza">Cotiza fácilmente</a>
+            </li>
+            <li>
+              <a href="productos.html">Productos</a>
+            </li>
+            <li>
+              <a href="contacto.html">Contáctanos</a>
+            </li>
+
+          </ul>
+        </nav>
+      </li>
+    </ul>
+  </header>
+  <section class="quienes-somos" id="quienes-somos">
+    <h1>¿Quienes somos?</h1>
+    <div class="container-nosotros">
+      <div class="legend">
+        <ul class="lista-quienes-somos">
+          <li>
+            <h3>SuperCamiones SAS</h3>
+            <img src="./Imagenes/318180803_5659736150777710_4639532469849390862_n.jpg" alt="Nuestro_equipo"
+              class="imagen-nosotros" />
+            <p class="text-legend">
+              Estamos orgullosos de nuestro equipo de trabajo, que está siempre dispuesto a ayudar y a hacer que su
+              experiencia sea lo más agradable posible.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="legend">
+        <ul id="legend-scroll">
+          <li>
             <h3>Familia SuperCamiones SAS</h3>
             <div class="historia-quienesSomos__container" id="historia-quienesSomos">
             </div>
           </li>
         </ul>
       </div>
-    </section>
-    <section class="mision-vision" id="mision-vision">
-      <h1>Misión y Visión</h1>
-      <div class="caja-mision-vision">
-        <div class="mision-vision-div">
-          <img src="./Imagenes/mision (1).png" alt="Objetivo" class="imagen-mision-vision" width="100px">
-          <p>Somos una empresa dedicada al comercio y distribución de autopartes para camiones y buses de diferentes marcas enfatizándonos en la distribución directa de repuestos originales Volkswagen, orientada siempre a las necesidades de nuestros clientes.
+  </section>
+  <section class="mision-vision" id="mision-vision">
+    <h1>Misión y Visión</h1>
+    <div class="caja-mision-vision">
+      <div class="mision-vision-div">
+        <img src="./Imagenes/mision (1).png" alt="Objetivo" class="imagen-mision-vision" width="100px">
+        <p>Somos una empresa dedicada al comercio y distribución de autopartes para camiones y buses de diferentes
+          marcas enfatizándonos en la distribución directa de repuestos originales Volkswagen, orientada siempre a las
+          necesidades de nuestros clientes.
 
-            Buscamos día a día soluciones de calidad y eficientes para que nuestros transportadores de Colombia puedan continuar de manera tranquila con su recorrido.</p>
-        </div>
-        <div>
-          <img src="./Imagenes/vision.png" alt="visión" class="imagen-mision-vision" width="140px"/>
-          <p>Para el año 2024 SUPERCAMIONES SAS será el primer almacén de venta directa Volkswagen con taller propio en Colombia seguir siendo reconocida a nivel nacional por su servicio y calidad.</p>
-        </div>
+          Buscamos día a día soluciones de calidad y eficientes para que nuestros transportadores de Colombia puedan
+          continuar de manera tranquila con su recorrido.</p>
       </div>
-    </section>
-    <a href="https://api.whatsapp.com/send?phone=573208580297" target="_blank">
-      <img
-        src="./Logos/pngwing.com.png"
-        alt="whatsApp"
-        width="100px"
-        height="100px"
-        id="logo-whatsapp"
-      />
-    </a>
-    </main>
-    <footer >
-      <div class="lista-footer">
-        <img
-          src="./Logos/Logo SuperCamiones SAS.png"
-          alt="LogoVSuperCamiones"
-          class="logo-footer"
-        />
+      <div class="mision-vision-div">
+        <img src="./Imagenes/vision.png" alt="visión" class="imagen-mision-vision" width="140px" />
+        <p>Para el año 2024 SUPERCAMIONES SAS será el primer almacén de venta directa Volkswagen con taller propio en
+          Colombia y seguir siendo reconocida a nivel nacional por su servicio y calidad.</p>
+      </div>
+    </div>
+  </section>
+  <a href="https://api.whatsapp.com/send?phone=573208580297" target="_blank">
+    <img src="./Logos/pngwing.com.png" alt="whatsApp" width="100px" height="100px" id="logo-whatsapp" />
+  </a>
+  </main>
+  <footer>
+    <div class="lista-footer">
+      <img src="./Logos/Logo SuperCamiones SAS.png" alt="LogoVSuperCamiones" class="logo-footer" />
 
-        <img
-          src="./Logos/Logo Volkswagen 1-01.png"
-          alt="LogoVSuperCamiones"
-          class="logo-footer logo-footer__volkswagen"
-        />
-      </div>
-      <div class="footer-container-info">
-      <div >
-        <ul >
+      <img src="./Logos/Logo Volkswagen 1-01.png" alt="LogoVSuperCamiones"
+        class="logo-footer logo-footer__volkswagen" />
+    </div>
+    <div class="footer-container-info">
+      <div>
+        <ul>
           <li><label class="title-lista-footer">Dirrección</label></li>
           <li><label>Carrera 82B 8A 52, Valladolid</label></li>
           <li><label>Bogotá, Colombia</label></li>
         </ul>
-        <br/>
+        <br />
         <ul>
           <li><label class="title-lista-footer">Teléfono</label></li>
           <li><label>6014128650</label></li>
-          <a class="logo-footer-whatsapp"><img src="./Logos/redes-01.png" alt="logo-whatsapp" width="20px"/></a>
+          <a class="logo-footer-whatsapp"><img src="./Logos/redes-01.png" alt="logo-whatsapp" width="20px" /></a>
           <li><label>311 873 6224 | 320 858 0261</label></li>
           <li><label>320 858 0280 | 301 299 0445</label></li>
         </ul>
-        <br/>
+        <br />
         <ul>
           <li><label class="title-lista-footer">Correo</label></li>
           <li><label>comercialsupercamiones@gmail.com</label></li>
@@ -141,17 +139,20 @@
       <div class="container-lado-derecho">
         <ul>
           <li><label class="title-lista-footer">Horarios de atención</label></li>
-          <br/>
+          <br />
           <li><label>Lunes a Viernes de 8:30 AM a 6:00 PM</label></li>
           <li><label>Sábados de 8:30 AM a 1:00 PM</label></li>
-          <br/><br/><br/><br/>
-          <a class="redes-sociales redes-sociales__volkswagen" href="https://www.facebook.com/supercamionesSAS" target="_blank"><img src="./Logos/redes-02.png" alt="logo-facebook" width="30px;"/>Facebook</a>
+          <br /><br /><br /><br />
+          <a class="redes-sociales redes-sociales__volkswagen" href="https://www.facebook.com/supercamionesSAS"
+            target="_blank"><img src="./Logos/redes-02.png" alt="logo-facebook" width="30px;" />Facebook</a>
           <a class="redes-sociales redes-sociales__volkswagen" href="https://www.instagram.com/supercamionesas/"
-          target="_blank"><img src="./Logos/redes-03.png" alt="logo-instagram" width="30px;"/>Instagram</a>
+            target="_blank"><img src="./Logos/redes-03.png" alt="logo-instagram" width="30px;" />Instagram</a>
         </ul>
       </div>
     </div>
-    </footer>
-    <script src="misionVision.js"></script>
-  </body>
+  </footer>
+  <script src="misionVision.js"></script>
+  <script src="hamburguer.js"></script>
+</body>
+
 </html>
