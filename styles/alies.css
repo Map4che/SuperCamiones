@@ -129,9 +129,9 @@
 
   #sello {
     box-sizing: content-box;
-    width: calc(25%);
-    height: 380px;
+    width: calc(20%);
+    height: 320px;
     position: relative;
-    top: 4%;
+    top: 10%;
   }
 }

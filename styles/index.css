@@ -64,10 +64,6 @@
   left: 88%;
 }
 
-canvas {
-  display: none;
-}
-
 h1 {
   font-size: 20px;
   text-align: center;
@@ -156,18 +152,6 @@ h1 {
 
   #siguiente {
     top: -300px;
-  }
-
-  canvas {
-    display: block;
-    box-sizing: content-box;
-    position: absolute;
-    border-radius: 35%;
-    left: 50%;
-    top: calc(74%);
-    z-index: 1;
-    margin: 20px 0 20px;
-    transform: translateX(-50%);
   }
 
   .servicios {

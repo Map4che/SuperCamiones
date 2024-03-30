@@ -1,0 +1,138 @@
+.productos-volkswagen__title {
+  margin-top: 4rem;
+  width: 30%;
+}
+
+.nav-volkswagen {
+  position: absolute;
+  z-index: 4;
+}
+
+.volkswagen-segunda-linea {
+  top: 5.8rem;
+}
+
+.logo-volkswagen__volkswagen {
+  background: url("../Volkswagen/LogoPestanaVolkswagen-01.png");
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  top: 10px;
+  background-repeat: no-repeat;
+}
+
+.carousel-volkswagen {
+  margin-top: -1.5rem;
+}
+
+.form-title {
+  width: 44%;
+  margin-top: 4rem;
+}
+
+.volkswagen-form-subtitle {
+  font-size: 1.4rem;
+}
+
+.big-form-container {
+  width: 40%;
+  margin: 0 auto 2rem;
+  color: #53575a;
+}
+
+.small-form-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem auto;
+  width: 50%;
+}
+
+.form-container label {
+  color: #53575a;
+  margin: 0.5rem 0;
+}
+
+.form-fild__volkswagen {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-volkswagen {
+  background: rgb(233, 230, 230);
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  padding: 0.4rem 1rem 0.4rem;
+}
+
+.label-permisos__volkswagen {
+  font-size: 0.8rem;
+}
+
+.resaltar-supercamiones {
+  font-weight: 900;
+}
+
+.button-form__volkswagen {
+  display: flex;
+  color: #53575a;
+  background-color: rgb(233, 230, 230);
+  margin: 2rem auto 4rem;
+  border-radius: 2rem;
+  padding: 1rem 3rem 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.container-footer__volkswagen {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container-info__volkswagen {
+  width: 100%;
+  margin-left: 3rem;
+}
+
+.redes-sociales__volkswagen {
+  font-size: 1rem;
+  margin-right: -1.4rem;
+}
+.redes-sociales__volkswagen img {
+  width: 1rem;
+}
+
+.img-productos__list {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 1rem;
+}
+
+.container-product__list p {
+  color: #002e61;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 720px) {
+  .logo-volkswagen__volkswagen {
+    background: url("../Volkswagen/LogoPestanaVolkswagen-01.png");
+    width: 100%;
+    height: 70px;
+    margin: 2rem 0 1rem 0;
+    z-index: 10;
+    position: absolute;
+    top: -12px;
+  }
+}

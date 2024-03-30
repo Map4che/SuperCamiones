@@ -6,19 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="./Logos/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/hamburguer.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/ask.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/volkswagen.css" />
     <title>Productos Volkswagen</title>
   </head>
   <body>
     <header>
+      <div class="logo-volkswagen__volkswagen"></div>
       <ul>
-        <li class="nav-volkswagen">
-          <img
-            class="logo-volkswagen__volkswagen"
-            src="./Volkswagen/LogoPestanaVolkswagen-01.png"
-            alt=""
-          />
-        </li>
         <li>
+           <div class="hamburguer">
+        <input type="checkbox" id="check">
+        <label class="toggle" id="toggle" for="check">
+
+          <line class="toggle__line" id="toggle__line"></line>
+          <line class="toggle__line" id="toggle__line"></line>
+          <line class="toggle__line" id="toggle__line"></line>
+        </label>
+        </div>
           <nav
             class="nav-segunda-linea volkswagen-segunda-linea"
             id="fixed-element"
@@ -268,5 +277,6 @@
       </div>
     </footer>
     <script src="volkswagen.js"></script>
+    <script src="hamburguer.js"></script>
   </body>
 </html>

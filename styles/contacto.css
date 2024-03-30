@@ -1,12 +1,14 @@
 .contacto h1 {
   margin-top: 50px;
 }
+
 .container-contacto {
   background: url(../Imagenes/Fondo\ contactanos.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
-  width: 80%;
+  flex-direction: column;
+  width: 90%;
   height: 60%;
   margin: 0 auto 4rem;
 }
@@ -16,8 +18,8 @@
 }
 
 .img-contacto {
-  width: 12rem;
-  height: 6rem;
+  width: 6rem;
+  height: 3rem;
 }
 
 .contacto-div-contacto {
@@ -26,8 +28,7 @@
   justify-content: center;
   text-align: center;
   color: #53575a;
-  padding: 5rem;
-  border-right: 2px solid #53575aad;
+  padding: 0 3rem 2rem 3rem;
 }
 
 .contacto-div-contacto2 {
@@ -36,7 +37,7 @@
   justify-content: center;
   text-align: center;
   color: #53575a;
-  padding: 5rem;
+  padding: 2rem;
   justify-content: start;
 }
 
@@ -60,7 +61,7 @@
   color: white;
   background-color: #53575a;
   padding: 0.5rem 2rem;
-  margin: 0 2rem;
+  margin: 0 2rem 0 0;
   border-radius: 0.3rem;
 }
 
@@ -82,7 +83,7 @@
 }
 
 .whats-contacto {
-  width: 2.7rem;
+  width: 2rem;
   margin-right: 1rem;
 }
 
@@ -111,5 +112,39 @@
   transition: 0.8s;
   &:hover {
     filter: sepia(100%) hue-rotate(-100deg) saturate(800%);
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .contacto h1 {
+    margin-top: 5.5rem;
+    width: 30%;
+  }
+  .container-contacto {
+    width: 80%;
+    height: 60%;
+    flex-direction: row;
+  }
+
+  .img-contacto {
+    width: 12rem;
+    height: 6rem;
+  }
+
+  .contacto-div-contacto {
+    padding: 5rem;
+    border-right: 2px solid #53575aad;
+  }
+
+  .container-sub {
+    margin: 0 2rem;
+  }
+
+  .contacto-div-contacto2 {
+    padding: 5rem;
+  }
+
+  .whats-contacto {
+    width: 2.7rem;
   }
 }
