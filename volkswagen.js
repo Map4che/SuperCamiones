@@ -63,6 +63,126 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(cambiarSiguiente, 10000);
   };
   firstImage.src = imagenes[0];
+
+  let imagesVolkswagen = [
+    {
+      src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1711909521/1_Motor_f7hly7.png",
+      category: "motor",
+    },
+    {
+      src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1711909521/1_Transmision_hbly7x.png",
+      category: "transmision",
+    },
+    {
+      src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1711909521/1_Caja_zaugjf.png",
+      category: "caja",
+    },
+    {
+      src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1711909521/1_Retenedores_y_balineras_ewqrr2.png",
+      category: "retenedores y balineras",
+    },
+    {
+      src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1711909521/1_Accesorios_xdb8bg.png",
+      category: "accesorios",
+    },
+    {
+      src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1711909521/1_Filtros_wnyrmk.png",
+      category: "filtros",
+    },
+  ];
+
+  let indexV1 = 0;
+  let indexV2 = 1;
+  let indexV3 = 2;
+
+  const volkswagenPartOption1 = document.getElementById("imagen-volkswagen1");
+  const volkswagenPartOption2 = document.getElementById("imagen-volkswagen2");
+  const volkswagenPartOption3 = document.getElementById("imagen-volkswagen3");
+
+  function changeImage() {
+    volkswagenPartOption1.style.backgroundImage = `url(${imagesVolkswagen[indexV1].src})`;
+    volkswagenPartOption2.style.backgroundImage = `url(${imagesVolkswagen[indexV2].src})`;
+    volkswagenPartOption3.style.backgroundImage = `url(${imagesVolkswagen[indexV3].src})`;
+  }
+
+  function changePrevious() {
+    indexV1--;
+    indexV2--;
+    indexV3--;
+    if (indexV1 < 0) {
+      indexV1 = imagesVolkswagen.length - 1;
+    }
+    if (indexV2 < 0) {
+      indexV2 = imagesVolkswagen.length - 1;
+    }
+    if (indexV3 < 0) {
+      indexV3 = imagesVolkswagen.length - 1;
+    }
+    changeImage();
+  }
+
+  function changeNext() {
+    indexV1++;
+    indexV2++;
+    indexV3++;
+    if (indexV1 >= imagesVolkswagen.length) {
+      indexV1 = 0;
+    }
+    if (indexV2 >= imagesVolkswagen.length) {
+      indexV2 = 0;
+    }
+    if (indexV3 >= imagesVolkswagen.length) {
+      indexV3 = 0;
+    }
+    changeImage();
+  }
+
+  document
+    .getElementById("previous-volkswagen")
+    .addEventListener("click", changePrevious);
+
+  document
+    .getElementById("next-volkswagen")
+    .addEventListener("click", changeNext);
+
+  let firstIcon = new Image();
+  firstIcon.onload = function () {
+    changeImage();
+    setInterval(changeNext, 10000000);
+  };
+  firstIcon.src = imagesVolkswagen[0].src;
+
+  const selectOption1 = document.getElementById("imagen-volkswagen1");
+  const selectOption2 = document.getElementById("imagen-volkswagen2");
+  const selectOption3 = document.getElementById("imagen-volkswagen3");
+
+  selectOption1.addEventListener("click", () => {
+    let option = selectOption1.style.backgroundImage;
+    option = option.replace('url("', "").replace('")', "");
+    imagesVolkswagen.map((data) => {
+      if (option == data.src) {
+        mostrarElementosPorCategoria(data.category);
+      }
+    });
+  });
+  selectOption2.addEventListener("click", () => {
+    let option = selectOption2.style.backgroundImage;
+    option = option.replace('url("', "").replace('")', "");
+    imagesVolkswagen.map((data) => {
+      if (option == data.src) {
+        mostrarElementosPorCategoria(data.category);
+      }
+    });
+  });
+  selectOption3.addEventListener("click", () => {
+    let option = selectOption3.style.backgroundImage;
+    option = option.replace('url("', "").replace('")', "");
+    imagesVolkswagen.map((data) => {
+      if (option == data.src) {
+        mostrarElementosPorCategoria(data.category);
+      }
+    });
+  });
 });
 
 let images = [
@@ -222,12 +342,17 @@ function mostrarElementosPorCategoria(categoria = "") {
   }
 }
 
+const botonVolkswagen = document.getElementById("botonVolkswagen");
 let botonMotor = document.getElementById("eleccionMotor");
 let botonTransmision = document.getElementById("eleccionTransmision");
 let botonBalineras = document.getElementById("eleccionBalineras");
 let botonFiltros = document.getElementById("eleccionFiltros");
 let botonCaja = document.getElementById("eleccionCaja");
 let botonAccesorios = document.getElementById("eleccionAccesorios");
+
+botonVolkswagen.addEventListener("click", function () {
+  mostrarElementosPorCategoria("");
+});
 
 botonMotor.addEventListener("click", function () {
   mostrarElementosPorCategoria("motor");

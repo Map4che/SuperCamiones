@@ -1,151 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./Logos/favicon.ico" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="./styles/hamburguer.css" />
-    <link rel="stylesheet" href="./styles/navbar.css" />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/ask.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="stylesheet" href="./styles/volkswagen.css" />
-    <title>Productos Volkswagen</title>
-  </head>
-  <body>
-    <header>
-      <div class="logo-volkswagen__volkswagen"></div>
-      <ul>
-        <li>
-           <div class="hamburguer">
-        <input type="checkbox" id="check">
-        <label class="toggle" id="toggle" for="check">
 
-          <line class="toggle__line" id="toggle__line"></line>
-          <line class="toggle__line" id="toggle__line"></line>
-          <line class="toggle__line" id="toggle__line"></line>
-        </label>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./Logos/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./styles/hamburguer.css" />
+  <link rel="stylesheet" href="./styles/navbar.css" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="./styles/ask.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <link rel="stylesheet" href="./styles/volkswagen.css" />
+  <link rel="stylesheet" href="./styles/footerVolkswagen.css" />
+  <title>Productos Volkswagen</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo-volkswagen__volkswagen-nav"></div>
+    <ul>
+      <li>
+        <div class="hamburguer">
+          <input type="checkbox" id="check">
+          <label class="toggle" id="toggle" for="check">
+
+            <line class="toggle__line" id="toggle__line"></line>
+            <line class="toggle__line" id="toggle__line"></line>
+            <line class="toggle__line" id="toggle__line"></line>
+          </label>
         </div>
-          <nav
-            class="nav-segunda-linea volkswagen-segunda-linea"
-            id="fixed-element"
-          >
-            <ul>
-              <li class="logo-top-volkswagen">
-                <a href="volkswagen.html">Volkswagen</a>
-                <img
-                  src="./Logos/Logo Volkswagen_Mesa de trabajo 1.png"
-                  alt="volkswagen-logo"
-                  width="40px"
-                  height="25px"
-                />
-              </li>
-              <li>
-                <a href="index.html">Inicio</a>
-              </li>
-              <li>
-                <a href="./mision_vision.html">¿Quienes somos?</a>
-              </li>
-              <li>
-                <a href="./index.html#cotiza">Cotiza fácilmente</a>
-              </li>
-              <li>
-                <a href="productos.html">Productos</a>
-              </li>
-              <li>
-                <a href="contacto.html">Contáctanos</a>
-              </li>
-            </ul>
-          </nav>
-        </li>
-      </ul>
-    </header>
-    <a href="https://api.whatsapp.com/send?phone=573208580297" target="_blank">
-      <img
-        src="./Logos/pngwing.com.png"
-        alt="whatsApp"
-        width="100px"
-        height="100px"
-        id="logo-whatsapp"
-      />
-    </a>
-    <main class="productos-volkswagen">
-      <div class="carousel carousel-volkswagen">
-        <div id="imagen-principal" class="carousel-image"></div>
-        <div class="carousel-dots"></div>
-        <button id="anterior" class="carousel-button">&#8249;</button>
-        <button id="siguiente" class="carousel-button">&#8250;</button>
+        <nav class="nav-segunda-linea volkswagen-segunda-linea" id="fixed-element">
+          <ul>
+            <li class="logo-top-volkswagen">
+              <a href="volkswagen.html">Volkswagen</a>
+              <img src="./Logos/Logo Volkswagen_Mesa de trabajo 1.png" alt="volkswagen-logo" width="40px"
+                height="25px" />
+            </li>
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="./mision_vision.html">¿Quienes somos?</a>
+            </li>
+            <li>
+              <a href="./index.html#cotiza">Cotiza fácilmente</a>
+            </li>
+            <li>
+              <a href="productos.html">Productos</a>
+            </li>
+            <li>
+              <a href="contacto.html">Contáctanos</a>
+            </li>
+          </ul>
+        </nav>
+      </li>
+    </ul>
+  </header>
+  <a href="https://api.whatsapp.com/send?phone=573208580297" target="_blank">
+    <img src="./Logos/pngwing.com.png" alt="whatsApp" width="100px" height="100px" id="logo-whatsapp" />
+  </a>
+  <main class="productos-volkswagen">
+    <div class="carousel carousel-volkswagen">
+      <div id="imagen-principal" class="carousel-image"></div>
+      <div class="carousel-dots"></div>
+      <button id="anterior" class="carousel-button">&#8249;</button>
+      <button id="siguiente" class="carousel-button">&#8250;</button>
+    </div>
+    <h1 class="productos-volkswagen__title">Productos Volkswagen</h1>
+
+    <section class="producto__eleccion">
+      <div class="eleccion__botones  ">
+        <button class="eleccion__marcas" id="botonVolkswagen">
+          Volkswagen
+        </button>
       </div>
-      <h1 class="productos-volkswagen__title">Productos Volkswagen</h1>
-
-      <section class="producto__eleccion">
-        <div class="eleccion__botones  ">
-          <button class="eleccion__marcas" id="botonMarcaKenworth">
-            Volkswagen
-          </button>
-        </div>
-        <div class="container__eleccion eleccion__productos-nuevos">
-          <div class="eleccion__container-partes">
-            <figure>
-              <img
-                src="./Logos/Iconos supercamiones SAS-01.png"
-                alt=""
-                class="eleccion__image-partes eleccion__image-partes--primera"
-                id="eleccionMotor"
-              />
-              <figC id="figMotor">Motor</figC>
-            </figure>
-            <figure>
-              <img
-                src="./Logos/Iconos supercamiones SAS-02.png"
-                alt=""
-                class="eleccion__image-partes transmision"
-                id="eleccionTransmision"
-              />
-              <figC id="figTransmision">Transmisión</figC>
-            </figure>
-            <figure>
-              <img
-                src="./Logos/Iconos supercamiones SAS-03.png"
-                alt=""
-                class="eleccion__image-partes"
-                id="eleccionCaja"
-              />
-              <figC id="figCaja">Caja</figC>
-            </figure>
-            <figure>
-              <img
-                src="./Logos/Retenedores y balineras_Mesa de trabajo 1.png"
-                alt=""
-                class="eleccion__image-partes retenedores-balineras"
-                id="eleccionBalineras"
-              />
-              <figC id="figFlujos">Retenedores y balineras</figC>
-            </figure>
-            <figure>
-              <img
-                src="./Logos/Iconos supercamiones SAS-05.png"
-                alt=""
-                class="eleccion__image-partes accesorios"
-                id="eleccionAccesorios"
-              />
-              <figC id="figAccesorios">Accesorios</figC>
-            </figure>
-            <figure>
-              <img
-                src="./Logos/Iconos supercamiones SAS-04.png"
-                alt=""
-                class="eleccion__image-partes filtros"
-                id="eleccionFiltros"
-              />
-              <figC id="figFiltros">Filtros</figC>
-            </figure>
+      <div class="container__eleccion eleccion__productos-nuevos">
+        <div class="eleccion__container-partes">
+          <div class="carousel-volkswagen__prods">
+            <div id="imagen-volkswagen1" class="carousel-image-volkswagen"></div>
+            <div id="imagen-volkswagen2" class="carousel-image-volkswagen"></div>
+            <div id="imagen-volkswagen3" class="carousel-image-volkswagen"></div>
+            <button id="previous-volkswagen" class="carousel-button carousel-button-volkswagen">&#8249;</button>
+            <button id="next-volkswagen" class="carousel-button carousel-button-volkswagen">&#8250;</button>
+          </div>
+          <div class="volkswagen_figures">
+          <figure>
+            <img src="./Logos/Iconos supercamiones SAS-01.png" alt=""
+              class="eleccion__image-partes eleccion__image-partes--primera" id="eleccionMotor" />
+            <figC id="figMotor">Motor</figC>
+          </figure>
+          <figure>
+            <img src="./Logos/Iconos supercamiones SAS-02.png" alt="" class="eleccion__image-partes transmision"
+              id="eleccionTransmision" />
+            <figC id="figTransmision">Transmisión</figC>
+          </figure>
+          <figure>
+            <img src="./Logos/Iconos supercamiones SAS-03.png" alt="" class="eleccion__image-partes"
+              id="eleccionCaja" />
+            <figC id="figCaja">Caja</figC>
+          </figure>
+          <figure>
+            <img src="./Logos/Retenedores y balineras_Mesa de trabajo 1.png" alt=""
+              class="eleccion__image-partes retenedores-balineras" id="eleccionBalineras" />
+            <figC id="figFlujos">Retenedores y balineras</figC>
+          </figure>
+          <figure>
+            <img src="./Logos/Iconos supercamiones SAS-05.png" alt="" class="eleccion__image-partes accesorios"
+              id="eleccionAccesorios" />
+            <figC id="figAccesorios">Accesorios</figC>
+          </figure>
+          <figure>
+            <img src="./Logos/Iconos supercamiones SAS-04.png" alt="" class="eleccion__image-partes filtros"
+              id="eleccionFiltros" />
+            <figC id="figFiltros">Filtros</figC>
+          </figure>
           </div>
         </div>
-        <section class="container__elementos-elegidos"
-        id="elementos__elegidos">
+      </div>
+      <section class="container__elementos-elegidos" id="elementos__elegidos">
       </section>
       <section class="container-form__volkswagen">
         <h1 class="form-title">Cotiza fácilmente tu pieza Volkswagen</h1>
@@ -158,15 +132,15 @@
               <div class="form-container">
                 <div class="form-fild__volkswagen">
                   <label for="nombre">Nombre</label>
-                  <input class="input-volkswagen" id="nombre" type="text" name="Nombre"/>
+                  <input class="input-volkswagen" id="nombre" type="text" name="Nombre" />
                 </div>
                 <div class="form-fild__volkswagen">
                   <label for="telefono">Teléfono</label>
-                  <input class="input-volkswagen" id="telefono" type="text" name="Telefono"/>
+                  <input class="input-volkswagen" id="telefono" type="text" name="Telefono" />
                 </div>
                 <div class="form-fild__volkswagen">
                   <label for="email">Correo electrónico</label>
-                  <input class="input-volkswagen" id="email" type="text" name="email"/>
+                  <input class="input-volkswagen" id="email" type="text" name="email" />
                 </div>
               </div>
               <div class="form-container">
@@ -178,105 +152,75 @@
             </div>
             <div>
               <input type="checkbox" id="autorizacion-volkswagen" name="Autorizacion1 volkswagen" />
-              <label
-                class="label-permisos__volkswagen"
-                for="autorizacion-volkswagen"
-                >Autorizo el uso de mis datos personales para que
-                <strong class="resaltar-supercamiones">SuperCamiones SAS</strong
-                >, me contacten por los canales compartidos anteriormente, con el
+              <label class="label-permisos__volkswagen" for="autorizacion-volkswagen">Autorizo el uso de mis datos
+                personales para que
+                <strong class="resaltar-supercamiones">SuperCamiones SAS</strong>, me contacten por los canales
+                compartidos anteriormente, con el
                 fin de recibir información relacionada con la solicitud de
-                cotización</label
-              >
+                cotización</label>
               <div>
-                <input type="checkbox" id="consentimiento-volkswagen" name="Autorizacion2 volkswagen"/>
-                <label
-                  class="label-permisos__volkswagen"
-                  for="consentimiento-volkswagen"
-                  >Acepto recebir publicidad promocional y de mercadeo por parte
+                <input type="checkbox" id="consentimiento-volkswagen" name="Autorizacion2 volkswagen" />
+                <label class="label-permisos__volkswagen" for="consentimiento-volkswagen">Acepto recebir publicidad
+                  promocional y de mercadeo por parte
                   de
-                  <strong class="resaltar-supercamiones"
-                    >SuperCamiones SAS</strong
-                  >
-                  por los canales compartidos anteriormente</label
-                >
+                  <strong class="resaltar-supercamiones">SuperCamiones SAS</strong>
+                  por los canales compartidos anteriormente</label>
               </div>
             </div>
             <button class="button-form__volkswagen">Enviar</button>
           </div>
         </form>
       </section>
-    </main>
-    <footer>
-      <div class="container-footer__volkswagen">
-        <div class="lista-footer">
-          <img
-            class="logo-volkswagen__volkswagen"
-            src="./Volkswagen/LogoPestanaVolkswagen-01.png"
-            alt=""
-          />
+  </main>
+  <footer>
+    <div class="container-footer__volkswagen">
+      <div class="lista-footer">
+        <div class="logo-volkswagen__volkswagen-footer"></div>
+
+      </div>
+      <div class="footer-container-info footer-container-info__volkswagen">
+        <div>
+          <ul>
+            <li><label class="title-lista-footer">Dirrección</label></li>
+            <li><label>Carrera 82B 8A 52, Valladolid</label></li>
+            <li><label>Bogotá, Colombia</label></li>
+          </ul>
+          <br />
+          <ul>
+            <li><label class="title-lista-footer">Teléfono</label></li>
+            <li><label>6014128650</label></li>
+            <a class="logo-footer-whatsapp"><img src="./Logos/redes-01.png" alt="logo-whatsapp" width="20px" /></a>
+            <li><label>311 873 6224 | 320 858 0261</label></li>
+            <li><label>320 858 0280 | 301 299 0445</label></li>
+          </ul>
+          <br />
+          <ul>
+            <li><label class="title-lista-footer">Correo</label></li>
+            <li><label>comercialsupercamiones@gmail.com</label></li>
+          </ul>
         </div>
-        <div class="footer-container-info footer-container-info__volkswagen">
-          <div>
-            <ul>
-              <li><label class="title-lista-footer">Dirrección</label></li>
-              <li><label>Carrera 82B 8A 52, Valladolid</label></li>
-              <li><label>Bogotá, Colombia</label></li>
-            </ul>
+        <div class="footer-linea"></div>
+        <div class="container-lado-derecho">
+          <ul>
+            <li>
+              <label class="title-lista-footer">Horarios de atención</label>
+            </li>
             <br />
-            <ul>
-              <li><label class="title-lista-footer">Teléfono</label></li>
-              <li><label>6014128650</label></li>
-              <a class="logo-footer-whatsapp"
-                ><img
-                  src="./Logos/redes-01.png"
-                  alt="logo-whatsapp"
-                  width="20px"
-              /></a>
-              <li><label>311 873 6224 | 320 858 0261</label></li>
-          <li><label>320 858 0280 | 301 299 0445</label></li>
-            </ul>
-            <br />
-            <ul>
-              <li><label class="title-lista-footer">Correo</label></li>
-              <li><label>comercialsupercamiones@gmail.com</label></li>
-            </ul>
-          </div>
-          <div class="footer-linea"></div>
-          <div class="container-lado-derecho">
-            <ul>
-              <li>
-                <label class="title-lista-footer">Horarios de atención</label>
-              </li>
-              <br />
-              <li><label>Lunes a Viernes de 8:30 AM a 6:00 PM</label></li>
-              <li><label>Sábados de 8:30 AM a 1:00 PM</label></li>
-              <br /><br /><br /><br />
-              <a
-                class="redes-sociales redes-sociales__volkswagen"
-                href="https://www.facebook.com/supercamionesSAS"
-                target="_blank"
-                ><img
-                  src="./Logos/redes-02.png"
-                  alt="logo-facebook"
-                  width="30px;"
-                />Facebook</a
-              >
-              <a
-                class="redes-sociales redes-sociales__volkswagen"
-                href="https://www.instagram.com/supercamionesas/"
-                target="_blank"
-                ><img
-                  src="./Logos/redes-03.png"
-                  alt="logo-instagram"
-                  width="30px;"
-                />Instagram</a
-              >
-            </ul>
-          </div>
+            <li><label>Lunes a Viernes de 8:30 AM a 6:00 PM</label></li>
+            <li><label>Sábados de 8:30 AM a 1:00 PM</label></li>
+            <br /><br /><br /><br />
+            <a class="redes-sociales redes-sociales__volkswagen" href="https://www.facebook.com/supercamionesSAS"
+              target="_blank"><img src="./Logos/redes-02.png" alt="logo-facebook" width="30px;" />Facebook</a>
+            <a class="redes-sociales redes-sociales__volkswagen" href="https://www.instagram.com/supercamionesas/"
+              target="_blank"><img src="./Logos/redes-03.png" alt="logo-instagram" width="30px;" />Instagram</a>
+          </ul>
         </div>
       </div>
-    </footer>
-    <script src="volkswagen.js"></script>
-    <script src="hamburguer.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="volkswagen.js"></script>
+  <script src="hamburguer.js"></script>
+  <script src="volkswagenCarousel.js"></script>
+</body>
+
 </html>

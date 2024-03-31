@@ -1,0 +1,41 @@
+.container-footer__volkswagen {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container-info__volkswagen {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.redes-sociales__volkswagen {
+  font-size: 1rem;
+  margin-right: -1.4rem;
+}
+.redes-sociales__volkswagen img {
+  width: 1rem;
+}
+
+.logo-volkswagen__volkswagen-footer {
+  background-image: url("../Volkswagen/LogoPestanaVolkswagen-01.png");
+  margin-top: 2rem;
+  height: 3rem;
+  background-position: center;
+  background-size: cover;
+  z-index: 4;
+}
+
+@media screen and (min-width: 720px) {
+  .container-footer__volkswagen {
+    width: 100%;
+  }
+  .logo-volkswagen__volkswagen-footer {
+    width: 100%;
+    background-size: contain;
+  }
+
+  .footer-container-info__volkswagen {
+    width: 100%;
+    margin: 0 0 0 3rem;
+  }
+}

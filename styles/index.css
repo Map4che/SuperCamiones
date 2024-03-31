@@ -119,14 +119,17 @@ h1 {
   border-radius: 1rem 1rem 0 0;
 }
 
-.title__nuestors-servicios {
+.title__nuestros-servicios {
+  color: var(--darkbluecolor);
   margin-bottom: 2rem;
   margin-left: 1rem;
   text-align: start;
+  font-size: 30px;
 }
 
 .p__nuestros-servicios {
   margin: 0 1rem 0 1rem;
+  color: var(--darkgreycolor);
 }
 
 @media screen and (min-width: 720px) {
