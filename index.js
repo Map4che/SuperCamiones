@@ -29,8 +29,3 @@ addEventListener("scroll", function () {
     element2.style.top = "84%";
   }
 });
-
-let pantalla = document.querySelector("canvas");
-let pincel = pantalla.getContext("2d");
-pincel.fillStyle = "white";
-pincel.fillRect(0, 0, 500, 40);
