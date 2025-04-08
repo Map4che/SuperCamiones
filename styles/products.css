@@ -166,8 +166,9 @@
   width: 70%;
   margin: auto;
   margin-top: 2rem;
-  height: 80vh;
-  gap: 3rem;
+  height: 40rem;
+  gap: 2rem;
+  justify-content: space-around;
   margin-bottom: 2rem;
 }
 
@@ -185,7 +186,23 @@
   font-size: 0.6rem;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 600px) {
+  .container__elementos-elegidos img {
+    display: flex;
+    justify-content: space-between;
+    min-width: 16rem;
+    max-width: 16rem;
+  }
+  .container__elementos-elegidos :nth-child(1) {
+    width: 250px;
+    height: 250px;
+    border-radius: 8%;
+  }
+
+  .container__elementos-elegidos :nth-child(2) {
+    font-size: 20px;
+    max-width: 16rem;
+  }
   .carousel-our_prods {
     display: none;
   }

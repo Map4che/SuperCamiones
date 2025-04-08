@@ -1,153 +1,161 @@
-.contacto h1 {
-  margin-top: 50px;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  height: 100vh;
+  padding: 20px;
+  max-height: 90vh;
 }
 
-.container-contacto {
-  background: url(../Imagenes/Fondo\ contactanos.jpg);
-  background-size: cover;
-  background-position: center;
+.banner-left {
+  background-color: #371e66;
+  color: white;
   display: flex;
   flex-direction: column;
-  width: 90%;
-  height: 60%;
-  margin: 0 auto 4rem;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
 }
 
-.contacto-div-logo {
-  margin: 1rem;
-}
-
-.img-contacto {
-  width: 6rem;
-  height: 3rem;
+.main-content {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .contacto-div-contacto {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  color: #53575a;
-  padding: 0 3rem 2rem 3rem;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
 }
 
-.contacto-div-contacto2 {
+.contact-phone-boxes {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.contact-phone-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.extensions-group {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  color: #53575a;
-  padding: 2rem;
-  justify-content: start;
+  align-items: center;
+  margin-top: 1rem;
 }
-
-.contacto-div-contacto__title {
-  margin: 1rem 0;
-  font-weight: 700;
-}
-
-.contacto-div-extensiones {
+.extensions-group_boxes {
+  width: 100%;
   display: flex;
+  justify-content: space-around;
+}
+
+.extensions-group_box {
+  margin-top: 2rem;
+  background-color: #c2bec9;
+  color: #371e66;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 20%;
+}
+
+.banner-left-pictuares {
+  margin-top: 2rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #371e66;
+}
+
+.contact-box-title {
+  font-weight: 800;
+  font-size: 1.6rem;
+}
+
+.contact-box-email,
+.contact-box-hours,
+.contact-box-phones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.contact-box-email p {
+  font-size: 1.8rem;
+}
+
+.contact-box-hours p {
+  font-size: 1.2rem;
+  white-space: nowrap;
+  margin-top: 0.5rem;
+}
+
+.contact-box-phones p {
+  font-size: 1.2rem;
+  white-space: nowrap;
+  margin-top: 0.5rem;
+}
+
+.contact-box-phones_whatsapp-img {
+  width: 4rem;
+}
+
+.banner-right {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.aside-main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.aside-asside {
+  background-color: #371e66;
+}
+
+.trucks-and-buses-icon {
+  margin-top: -10rem;
+}
+
+.aside-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   align-items: center;
 }
 
-.container-contacto-div-contacto-sub {
-  font-size: 1rem;
-  color: #53575a;
-  margin: 1rem 0;
-}
-
-.container-sub {
-  color: white;
-  background-color: #53575a;
-  padding: 0.5rem 2rem;
-  margin: 0 2rem 0 0;
-  border-radius: 0.3rem;
-}
-
-.contacto-div-contacto__subtitle {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  padding: 1rem 0 0;
-  color: white;
-}
-
-.contacto-carrito {
-  width: 4rem;
-  height: 4rem;
-}
-
-.contacto-div-correo-whats {
-  display: flex;
-  margin: 2rem 0;
-}
-
-.whats-contacto {
-  width: 2rem;
-  margin-right: 1rem;
-}
-
-.logos-contacto {
-  width: 3rem;
-}
-
-.logos-enlaces {
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
-}
-
-.horarios {
-  margin-top: 2.3rem;
-}
-
-.logo-enlaces-facebook {
-  transition: 0.8s;
-  &:hover {
-    filter: sepia(100%) hue-rotate(200deg) saturate(500%);
-  }
-}
-
-.logo-enlaces-instagram {
-  transition: 0.8s;
-  &:hover {
-    filter: sepia(100%) hue-rotate(-100deg) saturate(800%);
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .contacto h1 {
-    margin-top: 5.5rem;
-    width: 30%;
-  }
-  .container-contacto {
-    width: 80%;
-    height: 80%;
-    flex-direction: row;
-  }
-
-  .img-contacto {
-    width: 18rem;
-    height: 8rem;
-  }
-
-  .contacto-div-contacto {
-    width: 30%;
-    padding: 5rem;
-    border-right: 2px solid #53575aad;
-    font-size: 24px;
-  }
-
-  .container-sub {
-    margin: 0 2rem;
-  }
-
-  .contacto-div-contacto2 {
-    padding: 5rem;
-    font-size: 24px;
-  }
-
-  .whats-contacto {
-    width: 2.7rem;
-  }
+.supercamiones-icon-aside {
+  width: 12rem;
 }

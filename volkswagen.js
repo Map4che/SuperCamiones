@@ -262,19 +262,209 @@ let images = [
     category: "retenedores y balineras",
   },
   {
-    src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702259466/Filtros_de_Aceite_zwrge1.jpg",
-    title: "Filtros de aceite",
+    src: "./Volkswagen/Products/Filters/FILTRO COMBUSTIBLE 17-210 MWM.jpeg",
+    title: "FILTRO COMBUSTIBLE 17-210 MWM",
     category: "filtros",
   },
   {
-    src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702355315/Filtros_de_Combustible_1_ecvuhm.jpg",
-    title: "Filtros de combustible 1",
+    src: "./Volkswagen/Products/Filters/FILTRO TRAMPA COMBUS 15-180 VW-17210.jpeg",
+    title: "FILTRO TRAMPA COMBUS 15-180 VW-17210",
     category: "filtros",
   },
   {
-    src: "https://res.cloudinary.com/dx7s6xwo7/image/upload/v1702355315/Filtros_de_Aire_qkfczm.jpg",
-    title: "Filtros de aire",
+    src: "./Volkswagen/Products/Filters/FILTRO TRAMPA COMBUSTIBLE NOVO DELIVERY.jpeg",
+    title: "FILTRO TRAMPA COMBUSTIBLE NOVO DELIVERY",
     category: "filtros",
+  },
+  {
+    src: "./Volkswagen/Products/Filters/FILTROS 1.jpeg",
+    title: "FILTROS 1",
+    category: "filtros",
+  },
+  {
+    src: "./Volkswagen/Products/Filters/FILTROS 2.jpeg",
+    title: "FILTROS 2",
+    category: "filtros",
+  },
+  {
+    src: "./Volkswagen/Products/Filters/FILTROS 3.jpeg",
+    title: "FILTROS 3",
+    category: "filtros",
+  },
+  {
+    src: "./Volkswagen/Products/Accessories/BUJE TEFLON BARRA TENSORA VW.jpeg",
+    title: "BUJE TEFLON BARRA TENSORA",
+    category: "accesorios",
+  },
+  {
+    src: "./Volkswagen/Products/Accessories/COCUYO DIRECCIONAL BOMPER VW  DELIVERY 8-170 11-180 .jpg",
+    title: "COCUYO DIRECCIONAL BOMPER",
+    category: "accesorios",
+  },
+  {
+    src: "./Volkswagen/Products/Accessories/COCUYO FRONTAL DIRECCIONAL COSTELLATION .jpeg",
+    title: "COCUYO FRONTAL DIRECCIONAL COSTELLATION",
+    category: "accesorios",
+  },
+  {
+    src: "./Volkswagen/Products/Accessories/COCUYO LATERAL CUADRADO VW - 18310.jpeg",
+    title: "COCUYO LATERAL CUADRADO VW - 18310",
+    category: "accesorios",
+  },
+  {
+    src: "./Volkswagen/Products/Accessories/COCUYOS DIRECCIONAL COSTELLATION .jpeg",
+    title: "COCUYOS DIRECCIONAL COSTELLATION",
+    category: "accesorios",
+  },
+  {
+    src: "./Volkswagen/Products/Accessories/EMBLEMA PERSIANA CONSTELLATION .jpeg",
+    title: "EMBLEMA PERSIANA CONSTELLATION",
+    category: "accesorios",
+  },
+  {
+    src: "./Volkswagen/Products/Accessories/FAROL DELANTERO LH CONTELLATION .jpeg",
+    title: "FAROL DELANTERO LH CONTELLATION",
+    category: "accesorios",
+  },
+  {
+    src: "./Volkswagen/Products/Accessories/MANIJA EXTERNA PUERTA  RH COSTELLATION.jpeg",
+    title: "MANIJA EXTERNA PUERTA  RH COSTELLATION",
+    category: "accesorios",
+  },
+  {
+    src: "./Volkswagen/Products/Accessories/PIN TAPIZADO ESPALDAR Y TECHO VW.jpeg",
+    title: "PIN TAPIZADO ESPALDAR Y TECHO",
+    category: "accesorios",
+  },
+  {
+    src: "./Volkswagen/Products/RetAndBal/BALINERA BENDRIX F-7000 93.jpeg",
+    title: "BALINERA BENDRIX F-7000 93",
+    category: "retenedores y balineras",
+  },
+  {
+    src: "./Volkswagen/Products/RetAndBal/BALINERA CLUTCH .jpeg",
+    title: "BALINERA CLUTCH",
+    category: "retenedores y balineras",
+  },
+  {
+    src: "./Volkswagen/Products/RetAndBal/BALINERA CLUTCH 31330.jpeg",
+    title: "BALINERA CLUTCH 31330",
+    category: "retenedores y balineras",
+  },
+  {
+    src: "./Volkswagen/Products/RetAndBal/BALINERA CLUTCH.jpeg",
+    title: "BALINERA CLUTCH",
+    category: "retenedores y balineras",
+  },
+  {
+    src: "./Volkswagen/Products/RetAndBal/BALINERA VOLANTE FS-4005 4205 .jpeg",
+    title: "BALINERA VOLANTE FS-4005 4205",
+    category: "retenedores y balineras",
+  },
+  {
+    src: "./Volkswagen/Products/RetAndBal/BALINERA VOLANTE NH-350.jpeg",
+    title: "BALINERA VOLANTE NH-350",
+    category: "retenedores y balineras",
+  },
+  {
+    src: "./Volkswagen/Products/RetAndBal/BALINERAS .jpeg",
+    title: "BALINERAS",
+    category: "retenedores y balineras",
+  },
+  {
+    src: "./Volkswagen/Products/RetAndBal/BALINERAS1.jpeg",
+    title: "BALINERAS",
+    category: "retenedores y balineras",
+  },
+  {
+    src: "./Volkswagen/Products/RetAndBal/COLLARIN BALINERA CLUCTCH VW 9150.jpeg",
+    title: "COLLARIN BALINERA CLUCTCH VW 9150",
+    category: "retenedores y balineras",
+  },
+  {
+    src: "./Volkswagen/Products/RetAndBal/RODILLO TRAPECIO CLUTCH.jpeg",
+    title: "RODILLO TRAPECIO CLUTCH",
+    category: "retenedores y balineras",
+  },
+  {
+    src: "./Volkswagen/Products/Box/CAJA.jpeg",
+    title: "CAJA",
+    category: "caja",
+  },
+  {
+    src: "./Volkswagen/Products/Box/CANASTILLA PIÑON 3a REVERSA FS-4205.jpeg",
+    title: "CANASTILLA PIÑON 3a REVERSA FS-4205",
+    category: "caja",
+  },
+  {
+    src: "./Volkswagen/Products/Box/MANGA DE RV-1a FS-4205.jpeg",
+    title: "MANGA DE RV-1a FS-4205",
+    category: "caja",
+  },
+  {
+    src: "./Volkswagen/Products/Box/PIÑA SINCRON 2a-3a 4205 ABC.jpeg",
+    title: "PIÑA SINCRON 2a-3a 4205 ABC",
+    category: "caja",
+  },
+  {
+    src: "./Volkswagen/Products/Box/PIÑON 2 TREN FIJO FS-4205.jpeg",
+    title: "PIÑON 2 TREN FIJO FS-4205",
+    category: "caja",
+  },
+  {
+    src: "./Volkswagen/Products/Box/PIÑON 3 TREN FIJO FS-4205.jpeg",
+    title: "PIÑON 3 TREN FIJO FS-4205",
+    category: "caja",
+  },
+  {
+    src: "./Volkswagen/Products/Box/PIÑON 4a TREN FIJO F S-4205.jpeg",
+    title: "PIÑON 4a TREN FIJO F S-4205",
+    category: "caja",
+  },
+  {
+    src: "./Volkswagen/Products/Box/TOMA CAJA FS-405 F700095.jpeg",
+    title: "TOMA CAJA FS-405 F700095",
+    category: "caja",
+  },
+  {
+    src: "./Volkswagen/Products/Transmission/CASNASTILLA DIVISOR COMPLETA 46ML (2).jpeg",
+    title: "CASNASTILLA DIVISOR COMPLETA 46ML",
+    category: "transmision",
+  },
+  {
+    src: "./Volkswagen/Products/Transmission/CASNASTILLA DIVISOR COMPLETA 46ML.jpeg",
+    title: "CASNASTILLA DIVISOR COMPLETA 46ML",
+    category: "transmision",
+  },
+  {
+    src: "./Volkswagen/Products/Transmission/CORONA Y SPEED 8 43 CARGO 815.jpeg",
+    title: "CORONA Y SPEED 8 43 CARGO 815",
+    category: "transmision",
+  },
+  {
+    src: "./Volkswagen/Products/Transmission/CUPLING ESCUAL CARDANCARGO 81.jpeg",
+    title: "CUPLING ESCUAL CARDANCARGO 81",
+    category: "transmision",
+  },
+  {
+    src: "./Volkswagen/Products/Transmission/KIT CARDAN CARGO 815 VW 9-150.jpeg",
+    title: "KIT CARDAN CARGO 815 VW 9-150",
+    category: "transmision",
+  },
+  {
+    src: "./Volkswagen/Products/Transmission/PLANETARIO ESCUL 35EST CARG 8.png",
+    title: "PLANETARIO ESCUL 35EST CARG 8",
+    category: "transmision",
+  },
+  {
+    src: "./Volkswagen/Products/Transmission/SATELITE DIVISOR DS 46 ML B1-4.jpeg",
+    title: "SATELITE DIVISOR DS 46 ML B1-4",
+    category: "transmision",
+  },
+  {
+    src: "./Volkswagen/Products/Transmission/SATELITES CANAST.DIVISOR 38ML B1-4.jpeg",
+    title: "SATELITES CANAST.DIVISOR 38ML B1-4",
+    category: "transmision",
   },
 ];
 

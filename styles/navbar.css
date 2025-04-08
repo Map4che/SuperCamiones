@@ -42,7 +42,7 @@
 }
 
 .nav-segunda-linea ul li a {
-  font-size: 18px;
+  font-size: 16px;
   color: var(--darkgreycolor);
 }
 
@@ -72,6 +72,7 @@
     z-index: 999;
     align-items: center;
     height: 4rem;
+    overflow: hidden;
   }
 
   .nav-segunda-linea ul {
@@ -90,13 +91,15 @@
   }
 
   .logo-top-volkswagen a {
-    margin-right: calc(-1rem + 12px);
+    margin-left: 0rem;
     font-size: 18px;
-    transition: 600ms;
+    transition: 600ms ease-in-out;
   }
 
   .logo-top-volkswagen a:hover {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(36, 35, 35);
   }
 
   a {

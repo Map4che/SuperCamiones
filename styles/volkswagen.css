@@ -176,9 +176,10 @@
 .container-product__list p {
   color: #002e61;
   font-size: 1rem;
+  max-width: 16rem;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 600px) {
   .logo-volkswagen__volkswagen-nav {
     background-image: url("../Volkswagen/LogoPestanaVolkswagen-01.png");
     background-position: center;
@@ -205,6 +206,7 @@
   .container__elementos-elegidos :nth-child(1) {
     width: 250px;
     height: 250px;
+    border-radius: 8%;
   }
 
   .container__elementos-elegidos :nth-child(2) {
